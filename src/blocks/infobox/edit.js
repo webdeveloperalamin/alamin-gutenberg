@@ -1,4 +1,7 @@
 import FontIconPicker from '@fonticonpicker/react-fonticonpicker';
+import '@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.base-theme.react.css';
+import '@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.material-theme.react.css';
+import React from 'react';
 /**
  * Retrieves the translation of text.
  *
@@ -31,39 +34,76 @@ import './editor.scss';
  * @return {WPElement} Element to render.
  */
 
- const state = {
-		value: 'fipicon-angle-left',
-	};
+ const {
+	PanelBody,
+	SelectControl,
+	RangeControl,
+	TabPanel,
+	ToggleControl,
+	TextControl,
+	BaseControl,
+	Button,
+	ButtonGroup,
+} = wp.components
 
- const handleChange = (value) => {
-	setState({ value });
+const { Component, Fragment } = wp.element
+
+class AlaminInfobox extends Component {
+	constructor(props) {
+    super(props);
+    this.state = {
+      value: 'fipicon-angle-left',
+    };
+  }
+  handleChange = (value) => {
+    this.setState({ value });
+  }
+	render() {	
+			
+		const props = {
+      icons: ['fipicon-angle-left', 'fipicon-angle-right', 'fipicon-angle-up', 'fipicon-angle-down'],
+      theme: 'bluegrey',
+      renderUsing: 'class',
+      value: this.state.value,
+      onChange: this.handleChange,
+      isMulti: false,
+    };
+
+		console.log(props);
+		
+		// const blockProps = useBlockProps({
+		// 	className: 'infobox-wrapper',
+		// });
+		
+		return (
+			<>
+			<div  >
+				{__(
+					'Gutenberg Infobox – hello from the editor!',
+					'alamin-gutenberg'
+				)}
+			</div>
+			<FontIconPicker {...props}/>
+			</>
+		);
+	}
 }
 
-const props = {
-	icons: ['fipicon-angle-left', 'fipicon-angle-right', 'fipicon-angle-up', 'fipicon-angle-down'],
-	theme: 'bluegrey',
-	renderUsing: 'class',
-	value: state.value,
-	onChange: handleChange.value,
-	isMulti: false,
-};
+export default AlaminInfobox;
 
-console.log(useBlockProps);
-
-
-export default function Edit() {
-	const blockProps = useBlockProps( {
-		className: 'infobox-wrapper',
-	} );
-	return (
-		<>
-		<div { ...blockProps } >
-			{__(
-				'Gutenberg Infobox – hello from the editor!',
-				'alamin-gutenberg'
-			)}
-		</div>
-		{/* <FontIconPicker {...props}/> */}
-		</>
-	);
-}
+// export default function Edit() {
+// 	const blockProps = useBlockProps( {
+// 		className: 'infobox-wrapper',
+// 	} );
+// 	return (
+// 		<>
+// 		<div { ...blockProps } >
+// 			{__(
+// 				'Gutenberg Infobox – hello from the editor!',
+// 				'alamin-gutenberg'
+// 			)}
+// 		</div>
+// 		{/* <FontIconPicker {...props}/> */}
+// 		</>
+// 	);
+// }
