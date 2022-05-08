@@ -26,10 +26,6 @@ import save from './save';
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
 registerBlockType('create-block/gutenberg-infobox', {
-    title: 'Gutenberg Infobox',
-    description: 'Block to generate a custom Infobox',
-    icon: 'format-image',
-    category: 'widgets',
     /**
      * @see ./edit.js
      */

@@ -48,18 +48,21 @@ const props = {
 	isMulti: false,
 };
 
-console.log(handleChange);
+console.log(useBlockProps);
 
 
 export default function Edit() {
+	const blockProps = useBlockProps( {
+		className: 'infobox-wrapper',
+	} );
 	return (
 		<>
-		<p {...useBlockProps()}>
+		<div { ...blockProps } >
 			{__(
 				'Gutenberg Infobox – hello from the editor!',
 				'alamin-gutenberg'
 			)}
-		</p>
+		</div>
 		{/* <FontIconPicker {...props}/> */}
 		</>
 	);

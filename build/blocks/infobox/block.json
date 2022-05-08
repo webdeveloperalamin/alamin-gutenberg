@@ -1,0 +1,16 @@
+{
+    "apiVersion": 2,
+    "name": "create-block/gutenberg-infobox",
+    "version": "0.1.0",
+    "title": "Gutenberg Infobox",
+    "category": "alaminblock",
+    "icon": "smiley",
+    "description": "Block to generate a custom Infobox.",
+    "supports": {
+        "html": false
+    },
+    "textdomain": "alamin-gutenberg",
+    "editorScript": "file:../../index.js",
+    "editorStyle": "file:../../index.css",
+    "style": "file:../../style-index.css"
+}

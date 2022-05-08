@@ -70,11 +70,6 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)('create-block/gutenberg-iconbox', {
-  title: 'Gutenberg Iconbox',
-  description: 'Block to generate a custom Iconbox',
-  icon: 'flag',
-  category: 'widgets',
-
   /**
    * @see ./edit.js
    */
@@ -160,9 +155,12 @@ const props = {
   onChange: handleChange.value,
   isMulti: false
 };
-console.log(handleChange);
+console.log(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps);
 function Edit() {
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps)(), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Gutenberg Iconbox – hello from the editor!', 'alamin-gutenberg')));
+  const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps)({
+    className: 'iconbox-wrapper'
+  });
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Gutenberg Iconbox – hello from the editor!', 'alamin-gutenberg')));
 }
 
 /***/ }),
@@ -257,11 +255,6 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)('create-block/gutenberg-infobox', {
-  title: 'Gutenberg Infobox',
-  description: 'Block to generate a custom Infobox',
-  icon: 'format-image',
-  category: 'widgets',
-
   /**
    * @see ./edit.js
    */
@@ -347,9 +340,12 @@ const props = {
   onChange: handleChange.value,
   isMulti: false
 };
-console.log(handleChange);
+console.log(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps);
 function Edit() {
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps)(), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Gutenberg Infobox – hello from the editor!', 'alamin-gutenberg')));
+  const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps)({
+    className: 'infobox-wrapper'
+  });
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Gutenberg Infobox – hello from the editor!', 'alamin-gutenberg')));
 }
 
 /***/ }),

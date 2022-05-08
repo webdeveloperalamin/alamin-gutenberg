@@ -21,6 +21,20 @@
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function create_block_alamin_gutenberg_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ . '/build/blocks/iconbox' );
+	register_block_type( __DIR__ . '/build/blocks/infobox' );
 }
 add_action( 'init', 'create_block_alamin_gutenberg_block_init' );
+
+function alamin_gutenburg_plugin_block_categories( $categories ) {
+	return array_merge(
+			$categories,
+			[
+					[
+							'slug'  => 'alaminblock',
+							'title' => __( 'Al Amin Blocks', 'lemonhive-gutenburg' ),
+					],
+			]
+	);
+}
+add_action( 'block_categories_all', 'alamin_gutenburg_plugin_block_categories', 10, 2 );

@@ -26,10 +26,6 @@ import save from './save';
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
 registerBlockType('create-block/gutenberg-iconbox', {
-    title: 'Gutenberg Iconbox',
-    description: 'Block to generate a custom Iconbox',
-    icon: 'flag',
-    category: 'widgets',
     /**
      * @see ./edit.js
      */

@@ -1,0 +1,16 @@
+{
+    "apiVersion": 2,
+    "name": "create-block/gutenberg-iconbox",
+    "version": "0.1.0",
+    "title": "Gutenberg Iconbox",
+    "category": "alaminblock",
+    "icon": "flag",
+    "description": "Block to generate a custom Iconbox.",
+    "supports": {
+        "html": false
+    },
+    "textdomain": "alamin-gutenberg",
+    "editorScript": "file:../../index.js",
+    "editorStyle": "file:../../index.css",
+    "style": "file:../../style-index.css"
+}
