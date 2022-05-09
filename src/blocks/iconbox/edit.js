@@ -48,7 +48,7 @@ const props = {
 	isMulti: false,
 };
 
-console.log(useBlockProps);
+// console.log(useBlockProps);
 
 
 export default function Edit() {

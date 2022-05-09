@@ -1,7 +1,3 @@
-import FontIconPicker from '@fonticonpicker/react-fonticonpicker';
-import '@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.base-theme.react.css';
-import '@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.material-theme.react.css';
-import React from 'react';
 /**
  * Retrieves the translation of text.
  *
@@ -16,6 +12,8 @@ import { __ } from '@wordpress/i18n';
  * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
 import { useBlockProps } from '@wordpress/block-editor';
+
+import IconSelector from './components/IconSelector';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -34,76 +32,21 @@ import './editor.scss';
  * @return {WPElement} Element to render.
  */
 
- const {
-	PanelBody,
-	SelectControl,
-	RangeControl,
-	TabPanel,
-	ToggleControl,
-	TextControl,
-	BaseControl,
-	Button,
-	ButtonGroup,
-} = wp.components
 
-const { Component, Fragment } = wp.element
-
-class AlaminInfobox extends Component {
-	constructor(props) {
-    super(props);
-    this.state = {
-      value: 'fipicon-angle-left',
-    };
-  }
-  handleChange = (value) => {
-    this.setState({ value });
-  }
-	render() {	
-			
-		const props = {
-      icons: ['fipicon-angle-left', 'fipicon-angle-right', 'fipicon-angle-up', 'fipicon-angle-down'],
-      theme: 'bluegrey',
-      renderUsing: 'class',
-      value: this.state.value,
-      onChange: this.handleChange,
-      isMulti: false,
-    };
-
-		console.log(props);
-		
-		// const blockProps = useBlockProps({
-		// 	className: 'infobox-wrapper',
-		// });
-		
-		return (
-			<>
-			<div  >
+export default function Edit() {
+	const blockProps = useBlockProps( {
+		className: 'infobox-wrapper',
+	} );
+	
+	return (
+		<div { ...blockProps } >
+			<div className="infobox-text" >
 				{__(
 					'Gutenberg Infobox – hello from the editor!',
 					'alamin-gutenberg'
 				)}
 			</div>
-			<FontIconPicker {...props}/>
-			</>
-		);
-	}
+			<IconSelector />
+		</div>
+	);
 }
-
-export default AlaminInfobox;
-
-// export default function Edit() {
-// 	const blockProps = useBlockProps( {
-// 		className: 'infobox-wrapper',
-// 	} );
-// 	return (
-// 		<>
-// 		<div { ...blockProps } >
-// 			{__(
-// 				'Gutenberg Infobox – hello from the editor!',
-// 				'alamin-gutenberg'
-// 			)}
-// 		</div>
-// 		{/* <FontIconPicker {...props}/> */}
-// 		</>
-// 	);
-// }
