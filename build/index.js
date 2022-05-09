@@ -307,7 +307,7 @@ const {
   Fragment
 } = wp.element;
 
-class IconSelector extends (react__WEBPACK_IMPORTED_MODULE_5___default().Component) {
+class IconSelector extends Component {
   constructor(props) {
     super(props);
 

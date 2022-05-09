@@ -18,7 +18,7 @@ import React from 'react';
 const { Component, Fragment } = wp.element
 
 
-class IconSelector extends React.Component {
+class IconSelector extends Component {
 	constructor(props) {
     super(props);
     this.state = {
