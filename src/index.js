@@ -1,2 +1,2 @@
-import "./blocks/infobox/block.js"
-import "./blocks/iconbox/block.js"
+import "./blocks/infobox/index.js"
+import "./blocks/iconbox/index.js"

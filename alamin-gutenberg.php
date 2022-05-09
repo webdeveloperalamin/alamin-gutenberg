@@ -20,11 +20,18 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
+
 function create_block_alamin_gutenberg_block_init() {
-	register_block_type( __DIR__ . '/build/blocks/iconbox' );
-	register_block_type( __DIR__ . '/build/blocks/infobox' );
+	register_block_type_from_metadata( __DIR__ . '/build/blocks/iconbox' );
+	register_block_type_from_metadata( __DIR__ . '/build/blocks/infobox' );
 }
 add_action( 'init', 'create_block_alamin_gutenberg_block_init' );
+
+function alamin_enqueue_blocks_scripts() {
+	$asset_file = require plugin_dir_path( __FILE__ ) . 'build/index.asset.php';
+	wp_enqueue_script( 'alamin-main', plugins_url( '/build/index.js', __FILE__ ), $asset_file['dependencies'], 1.0, false);
+}
+add_action( 'enqueue_block_editor_assets', 'alamin_enqueue_blocks_scripts');
 
 function alamin_gutenburg_plugin_block_categories( $categories ) {
 	return array_merge(

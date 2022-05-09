@@ -5,6 +5,10 @@
  */
 import { registerBlockType } from '@wordpress/blocks';
 
+import metadata from './block.json';
+
+const { title, name } = metadata;
+
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
  * All files containing `style` keyword are bundled together. The code used
@@ -25,7 +29,8 @@ import save from './save';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-registerBlockType('create-block/gutenberg-iconbox', {
+registerBlockType(name, {
+    title,
     /**
      * @see ./edit.js
      */
