@@ -11,7 +11,9 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps, RichText, InspectorControls, ColorPalette, MediaUpload } from '@wordpress/block-editor';
+
+import { PanelBody, SelectControl, IconButton, RangeControl } from '@wordpress/components';
 
 import IconSelector from './components/IconSelector';
 
@@ -39,14 +41,49 @@ export default function Edit() {
 	} );
 	
 	return (
-		<div { ...blockProps } >
-			<div className="infobox-text" >
-				{__(
-					'Gutenberg Infobox – hello from the editor!',
-					'alamin-gutenberg'
-				)}
+		<>
+			<InspectorControls style={ { marginBottom: '40px' } }>
+				<PanelBody title={ 'Image/Icon' }>
+				<SelectControl
+						label={ __( "Icon/Image Position", 'alamin-gutenberg' ) }
+						//value={ iconimgPosition }
+						//onChange={ ( value ) => setAttributes( { iconimgPosition: value } ) }
+						options={ [
+							{ value: "above-title", label: __( "Above Title", 'alamin-gutenberg' ) },
+							{ value: "left-title", label: __( "Left of Title", 'alamin-gutenberg' ) },
+							{ value: "left", label: __( "Left of Text and Title", 'alamin-gutenberg' ) },
+
+						] }
+					/>
+					<SelectControl
+						label={ __( "Select Source", 'alamin-gutenberg' ) }
+						//value={ source_type }
+						//onChange={ ( value ) => setAttributes( { source_type: value } ) }
+						options={ [
+							{ value: "icon", label: __( "Icon", 'alamin-gutenberg' ) },
+							{ value: "image", label: __( "Image", 'alamin-gutenberg' ) },
+						] }
+					/>
+					<IconSelector />
+					<RangeControl
+						label = { __( "Icon Size", 'alamin-gutenberg' ) }
+						//value = { iconSize }
+						//onChange = { ( value ) => setAttributes( { iconSize: value } ) }
+						min = { 10 }
+						max = { 300 }
+						beforeIcon = ""
+						allowReset
+					/>					
+				</PanelBody>
+			</InspectorControls>
+			<div { ...blockProps } >
+				<div className="infobox-text" >
+					{__(
+						'Gutenberg Infobox – hello from the editor!',
+						'alamin-gutenberg'
+					)}
+				</div>				
 			</div>
-			<IconSelector />
-		</div>
+		</>
 	);
 }

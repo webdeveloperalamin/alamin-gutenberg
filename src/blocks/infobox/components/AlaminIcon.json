@@ -2215,444 +2215,1748 @@
         "unicode": "f2b9",
         "label": "Address Book"
     },
-    "far fa-bell-slash",
-    "far fa-bookmark",
-    "far fa-building",
-    "far fa-calendar",
-    "far fa-calendar-alt",
-    "far fa-calendar-check",
-    "far fa-calendar-minus",
-    "far fa-calendar-plus",
-    "far fa-calendar-times",
-    "far fa-caret-square-down",
-    "far fa-caret-square-left",
-    "far fa-caret-square-right",
-    "far fa-caret-square-up",
-    "far fa-chart-bar",
-    "far fa-check-circle",
-    "far fa-check-square",
-    "far fa-circle",
-    "far fa-clipboard",
-    "far fa-clock",
-    "far fa-clone",
-    "far fa-closed-captioning",
-    "far fa-comment",
-    "far fa-comment-alt",
-    "far fa-comments",
-    "far fa-compass",
-    "far fa-copy",
-    "far fa-copyright",
-    "far fa-credit-card",
-    "far fa-dot-circle",
-    "far fa-edit",
-    "far fa-envelope",
-    "far fa-envelope-open",
-    "far fa-eye-slash",
-    "far fa-file",
-    "far fa-file-alt",
-    "far fa-file-archive",
-    "far fa-file-audio",
-    "far fa-file-code",
-    "far fa-file-excel",
-    "far fa-file-image",
-    "far fa-file-pdf",
-    "far fa-file-powerpoint",
-    "far fa-file-video",
-    "far fa-file-word",
-    "far fa-flag",
-    "far fa-folder",
-    "far fa-folder-open",
-    "far fa-frown",
-    "far fa-futbol",
-    "far fa-gem",
-    "far fa-hand-lizard",
-    "far fa-hand-paper",
-    "far fa-hand-peace",
-    "far fa-hand-point-down",
-    "far fa-hand-point-left",
-    "far fa-hand-point-right",
-    "far fa-hand-point-up",
-    "far fa-hand-pointer",
-    "far fa-hand-rock",
-    "far fa-hand-scissors",
-    "far fa-hand-spock",
-    "far fa-handshake",
-    "far fa-hdd",
-    "far fa-heart",
-    "far fa-hospital",
-    "far fa-hourglass",
-    "far fa-id-badge",
-    "far fa-id-card",
-    "far fa-image",
-    "far fa-images",
-    "far fa-keyboard",
-    "far fa-lemon",
-    "far fa-life-ring",
-    "far fa-lightbulb",
-    "far fa-list-alt",
-    "far fa-map",
-    "far fa-meh",
-    "far fa-minus-square",
-    "far fa-money-bill-alt",
-    "far fa-moon",
-    "far fa-newspaper",
-    "far fa-object-group",
-    "far fa-object-ungroup",
-    "far fa-paper-plane",
-    "far fa-pause-circle",
-    "far fa-play-circle",
-    "far fa-plus-square",
-    "far fa-question-circle",
-    "far fa-registered",
-    "far fa-save",
-    "far fa-share-square",
-    "far fa-smile",
-    "far fa-snowflake",
-    "far fa-square",
-    "far fa-star",
-    "far fa-star-half",
-    "far fa-sticky-note",
-    "far fa-stop-circle",
-    "far fa-sun",
-    "far fa-thumbs-down",
-    "far fa-thumbs-up",
-    "far fa-times-circle",
-    "far fa-trash-alt",
-    "far fa-user",
-    "far fa-user-circle",
-    "far fa-window-close",
-    "far fa-window-maximize",
-    "far fa-window-minimize",
-    "far fa-window-restore",
-    "fab fa-500px",
-    "fab fa-accessible-icon",
-    "fab fa-accusoft",
-    "fab fa-adn",
-    "fab fa-adversal",
-    "fab fa-affiliatetheme",
-    "fab fa-algolia",
-    "fab fa-amazon",
-    "fab fa-amazon-pay",
-    "fab fa-amilia",
-    "fab fa-android",
-    "fab fa-angellist",
-    "fab fa-angrycreative",
-    "fab fa-angular",
-    "fab fa-app-store",
-    "fab fa-app-store-ios",
-    "fab fa-apper",
-    "fab fa-apple",
-    "fab fa-apple-pay",
-    "fab fa-asymmetrik",
-    "fab fa-audible",
-    "fab fa-autoprefixer",
-    "fab fa-avianex",
-    "fab fa-aviato",
-    "fab fa-aws",
-    "fab fa-bandcamp",
-    "fab fa-behance",
-    "fab fa-behance-square",
-    "fab fa-bimobject",
-    "fab fa-bitbucket",
-    "fab fa-bitcoin",
-    "fab fa-bity",
-    "fab fa-black-tie",
-    "fab fa-blackberry",
-    "fab fa-blogger",
-    "fab fa-blogger-b",
-    "fab fa-bluetooth",
-    "fab fa-bluetooth-b",
-    "fab fa-btc",
-    "fab fa-buromobelexperte",
-    "fab fa-buysellads",
-    "fab fa-cc-amazon-pay",
-    "fab fa-cc-amex",
-    "fab fa-cc-apple-pay",
-    "fab fa-cc-diners-club",
-    "fab fa-cc-discover",
-    "fab fa-cc-jcb",
-    "fab fa-cc-mastercard",
-    "fab fa-cc-paypal",
-    "fab fa-cc-stripe",
-    "fab fa-cc-visa",
-    "fab fa-centercode",
-    "fab fa-chrome",
-    "fab fa-cloudscale",
-    "fab fa-cloudsmith",
-    "fab fa-cloudversify",
-    "fab fa-codepen",
-    "fab fa-codiepie",
-    "fab fa-connectdevelop",
-    "fab fa-contao",
-    "fab fa-cpanel",
-    "fab fa-creative-commons",
-    "fab fa-css3",
-    "fab fa-css3-alt",
-    "fab fa-cuttlefish",
-    "fab fa-d-and-d",
-    "fab fa-dashcube",
-    "fab fa-delicious",
-    "fab fa-deploydog",
-    "fab fa-deskpro",
-    "fab fa-deviantart",
-    "fab fa-digg",
-    "fab fa-digital-ocean",
-    "fab fa-discord",
-    "fab fa-discourse",
-    "fab fa-dochub",
-    "fab fa-docker",
-    "fab fa-draft2digital",
-    "fab fa-dribbble",
-    "fab fa-dribbble-square",
-    "fab fa-dropbox",
-    "fab fa-drupal",
-    "fab fa-dyalog",
-    "fab fa-earlybirds",
-    "fab fa-edge",
-    "fab fa-elementor",
-    "fab fa-ember",
-    "fab fa-empire",
-    "fab fa-envira",
-    "fab fa-erlang",
-    "fab fa-ethereum",
-    "fab fa-etsy",
-    "fab fa-expeditedssl",
-    "fab fa-facebook",
-    "fab fa-facebook-f",
-    "fab fa-facebook-messenger",
-    "fab fa-facebook-square",
-    "fab fa-firefox",
-    "fab fa-first-order",
-    "fab fa-firstdraft",
-    "fab fa-flickr",
-    "fab fa-flipboard",
-    "fab fa-fly",
-    "fab fa-font-awesome",
-    "fab fa-font-awesome-alt",
-    "fab fa-font-awesome-flag",
-    "fab fa-fonticons",
-    "fab fa-fonticons-fi",
-    "fab fa-fort-awesome",
-    "fab fa-fort-awesome-alt",
-    "fab fa-forumbee",
-    "fab fa-foursquare",
-    "fab fa-free-code-camp",
-    "fab fa-freebsd",
-    "fab fa-get-pocket",
-    "fab fa-gg",
-    "fab fa-gg-circle",
-    "fab fa-git",
-    "fab fa-git-square",
-    "fab fa-github",
-    "fab fa-github-alt",
-    "fab fa-github-square",
-    "fab fa-gitkraken",
-    "fab fa-gitlab",
-    "fab fa-gitter",
-    "fab fa-glide",
-    "fab fa-glide-g",
-    "fab fa-gofore",
-    "fab fa-goodreads",
-    "fab fa-goodreads-g",
-    "fab fa-google",
-    "fab fa-google-drive",
-    "fab fa-google-play",
-    "fab fa-google-plus",
-    "fab fa-google-plus-g",
-    "fab fa-google-plus-square",
-    "fab fa-google-wallet",
-    "fab fa-gratipay",
-    "fab fa-grav",
-    "fab fa-gripfire",
-    "fab fa-grunt",
-    "fab fa-gulp",
-    "fab fa-hacker-news",
-    "fab fa-hacker-news-square",
-    "fab fa-hips",
-    "fab fa-hire-a-helper",
-    "fab fa-hooli",
-    "fab fa-hotjar",
-    "fab fa-houzz",
-    "fab fa-html5",
-    "fab fa-hubspot",
-    "fab fa-imdb",
-    "fab fa-instagram",
-    "fab fa-internet-explorer",
-    "fab fa-ioxhost",
-    "fab fa-itunes",
-    "fab fa-itunes-note",
-    "fab fa-jenkins",
-    "fab fa-joget",
-    "fab fa-joomla",
-    "fab fa-js",
-    "fab fa-js-square",
-    "fab fa-jsfiddle",
-    "fab fa-keycdn",
-    "fab fa-kickstarter",
-    "fab fa-kickstarter-k",
-    "fab fa-korvue",
-    "fab fa-laravel",
-    "fab fa-lastfm",
-    "fab fa-lastfm-square",
-    "fab fa-leanpub",
-    "fab fa-less",
-    "fab fa-line",
-    "fab fa-linkedin",
-    "fab fa-linkedin-in",
-    "fab fa-linode",
-    "fab fa-linux",
-    "fab fa-lyft",
-    "fab fa-magento",
-    "fab fa-maxcdn",
-    "fab fa-medapps",
-    "fab fa-medium",
-    "fab fa-medium-m",
-    "fab fa-medrt",
-    "fab fa-meetup",
-    "fab fa-microsoft",
-    "fab fa-mix",
-    "fab fa-mixcloud",
-    "fab fa-mizuni",
-    "fab fa-modx",
-    "fab fa-monero",
-    "fab fa-napster",
-    "fab fa-nintendo-switch",
-    "fab fa-node",
-    "fab fa-node-js",
-    "fab fa-npm",
-    "fab fa-ns8",
-    "fab fa-nutritionix",
-    "fab fa-odnoklassniki",
-    "fab fa-odnoklassniki-square",
-    "fab fa-opencart",
-    "fab fa-openid",
-    "fab fa-opera",
-    "fab fa-optin-monster",
-    "fab fa-osi",
-    "fab fa-page4",
-    "fab fa-pagelines",
-    "fab fa-palfed",
-    "fab fa-patreon",
-    "fab fa-paypal",
-    "fab fa-periscope",
-    "fab fa-phabricator",
-    "fab fa-phoenix-framework",
-    "fab fa-php",
-    "fab fa-pied-piper",
-    "fab fa-pied-piper-alt",
-    "fab fa-pied-piper-pp",
-    "fab fa-pinterest",
-    "fab fa-pinterest-p",
-    "fab fa-pinterest-square",
-    "fab fa-playstation",
-    "fab fa-product-hunt",
-    "fab fa-pushed",
-    "fab fa-python",
-    "fab fa-qq",
-    "fab fa-quinscape",
-    "fab fa-quora",
-    "fab fa-ravelry",
-    "fab fa-react",
-    "fab fa-readme",
-    "fab fa-rebel",
-    "fab fa-red-river",
-    "fab fa-reddit",
-    "fab fa-reddit-alien",
-    "fab fa-reddit-square",
-    "fab fa-rendact",
-    "fab fa-renren",
-    "fab fa-replyd",
-    "fab fa-resolving",
-    "fab fa-rocketchat",
-    "fab fa-rockrms",
-    "fab fa-safari",
-    "fab fa-sass",
-    "fab fa-schlix",
-    "fab fa-scribd",
-    "fab fa-searchengin",
-    "fab fa-sellcast",
-    "fab fa-sellsy",
-    "fab fa-servicestack",
-    "fab fa-shirtsinbulk",
-    "fab fa-simplybuilt",
-    "fab fa-sistrix",
-    "fab fa-skyatlas",
-    "fab fa-skype",
-    "fab fa-slack",
-    "fab fa-slack-hash",
-    "fab fa-slideshare",
-    "fab fa-snapchat",
-    "fab fa-snapchat-ghost",
-    "fab fa-snapchat-square",
-    "fab fa-soundcloud",
-    "fab fa-speakap",
-    "fab fa-spotify",
-    "fab fa-stack-exchange",
-    "fab fa-stack-overflow",
-    "fab fa-staylinked",
-    "fab fa-steam",
-    "fab fa-steam-square",
-    "fab fa-steam-symbol",
-    "fab fa-sticker-mule",
-    "fab fa-strava",
-    "fab fa-stripe",
-    "fab fa-stripe-s",
-    "fab fa-studiovinari",
-    "fab fa-stumbleupon",
-    "fab fa-stumbleupon-circle",
-    "fab fa-superpowers",
-    "fab fa-supple",
-    "fab fa-telegram",
-    "fab fa-telegram-plane",
-    "fab fa-tencent-weibo",
-    "fab fa-themeisle",
-    "fab fa-trello",
-    "fab fa-tripadvisor",
-    "fab fa-tumblr",
-    "fab fa-tumblr-square",
-    "fab fa-twitch",
-    "fab fa-twitter",
-    "fab fa-twitter-square",
-    "fab fa-typo3",
-    "fab fa-uber",
-    "fab fa-uikit",
-    "fab fa-uniregistry",
-    "fab fa-untappd",
-    "fab fa-usb",
-    "fab fa-ussunnah",
-    "fab fa-vaadin",
-    "fab fa-viacoin",
-    "fab fa-viadeo",
-    "fab fa-viadeo-square",
-    "fab fa-viber",
-    "fab fa-vimeo",
-    "fab fa-vimeo-square",
-    "fab fa-vimeo-v",
-    "fab fa-vine",
-    "fab fa-vk",
-    "fab fa-vnv",
-    "fab fa-vuejs",
-    "fab fa-weibo",
-    "fab fa-weixin",
-    "fab fa-whatsapp",
-    "fab fa-whatsapp-square",
-    "fab fa-whmcs",
-    "fab fa-wikipedia-w",
-    "fab fa-windows",
-    "fab fa-wordpress",
-    "fab fa-wordpress-simple",
-    "fab fa-wpbeginner",
-    "fab fa-wpexplorer",
-    "fab fa-wpforms",
-    "fab fa-xbox",
-    "fab fa-xing",
-    "fab fa-xing-square",
-    "fab fa-y-combinator",
-    "fab fa-yahoo",
-    "fab fa-yandex",
-    "fab fa-yandex-international",
-    "fab fa-yelp",
-    "fab fa-yoast",
-    "fab fa-youtube",
-    "fab fa-youtube-square"
+    "far fa-bell-slash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-bookmark": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-building": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-calendar": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-calendar-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-calendar-check": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-calendar-minus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-calendar-plus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-calendar-times": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-caret-square-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-caret-square-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-caret-square-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-caret-square-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-chart-bar": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-check-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-check-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-clipboard": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-clock": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-clone": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-closed-captioning": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-comment": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-comment-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-comments": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-compass": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-copy": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-copyright": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-credit-card": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-dot-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-edit": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-envelope": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-envelope-open": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-eye-slash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-archive": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-audio": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-code": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-excel": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-image": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-pdf": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-powerpoint": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-video": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-file-word": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-flag": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-folder": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-folder-open": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-frown": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-futbol": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-gem": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-lizard": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-paper": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-peace": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-point-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-point-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-point-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-point-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-pointer": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-rock": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-scissors": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hand-spock": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-handshake": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hdd": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-heart": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hospital": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-hourglass": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-id-badge": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-id-card": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-image": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-images": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-keyboard": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-lemon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-life-ring": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-lightbulb": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-list-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-map": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-meh": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-minus-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-money-bill-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-moon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-newspaper": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-object-group": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-object-ungroup": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-paper-plane": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-pause-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-play-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-plus-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-question-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-registered": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-save": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-share-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-smile": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-snowflake": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-star": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-star-half": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-sticky-note": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-stop-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-sun": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-thumbs-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-thumbs-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-times-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-trash-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-user": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-user-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-window-close": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-window-maximize": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-window-minimize": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-window-restore": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-adn": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-adversal": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-affiliatetheme": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-algolia": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-amazon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-amazon-pay": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-amilia": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-android": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-angellist": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-angrycreative": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-angular": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-app-store": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-app-store-ios": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-apper": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-apple": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-apple-pay": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-asymmetrik": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-audible": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-autoprefixer": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-avianex": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-aviato": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-aws": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-bandcamp": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-behance": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-behance-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-bimobject": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-bitbucket": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-bitcoin": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-bity": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-black-tie": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-blackberry": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-blogger": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-blogger-b": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-bluetooth": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-bluetooth-b": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-btc": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-buromobelexperte": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-buysellads": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-amazon-pay": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-amex": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-apple-pay": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-diners-club": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-discover": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-jcb": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-mastercard": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-paypal": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-stripe": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cc-visa": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-centercode": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-chrome": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cloudscale": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cloudsmith": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cloudversify": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-codepen": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-codiepie": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-connectdevelop": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-contao": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cpanel": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-creative-commons": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-css3": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-css3-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-cuttlefish": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-d-and-d": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-dashcube": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-delicious": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-deploydog": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-deskpro": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-deviantart": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-digg": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-digital-ocean": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-discord": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-discourse": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-dochub": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-docker": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-draft2digital": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-dribbble": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-dribbble-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-dropbox": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-drupal": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-dyalog": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-earlybirds": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-edge": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-elementor": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-ember": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-empire": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-envira": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-erlang": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-ethereum": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-etsy": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-expeditedssl": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-facebook": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-facebook-f": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-facebook-messenger": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-facebook-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-firefox": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-first-order": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-firstdraft": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-flickr": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-flipboard": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-fly": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-font-awesome": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-font-awesome-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-font-awesome-flag": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-fonticons": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-fonticons-fi": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-fort-awesome": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-fort-awesome-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-forumbee": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-foursquare": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-free-code-camp": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-freebsd": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-get-pocket": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gg": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gg-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-git": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-git-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-github": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-github-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-github-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gitkraken": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gitlab": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gitter": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-glide": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-glide-g": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gofore": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-goodreads": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-goodreads-g": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-google": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-google-drive": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-google-play": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-google-plus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-google-plus-g": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-google-plus-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-google-wallet": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gratipay": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-grav": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gripfire": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-grunt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-gulp": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-hacker-news": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-hacker-news-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-hips": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-hire-a-helper": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-hooli": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-hotjar": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-houzz": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-html5": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-hubspot": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-imdb": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-instagram": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-internet-explorer": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-ioxhost": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-itunes": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-itunes-note": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-jenkins": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-joget": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-joomla": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-js": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-js-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-jsfiddle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-keycdn": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-kickstarter": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-kickstarter-k": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-korvue": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-laravel": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-lastfm": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-lastfm-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-leanpub": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-less": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-line": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-linkedin": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-linkedin-in": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-linode": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-linux": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-lyft": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-magento": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-maxcdn": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-medapps": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-medium": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-medium-m": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-medrt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-meetup": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-microsoft": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-mix": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-mixcloud": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-mizuni": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-modx": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-monero": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-napster": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-nintendo-switch": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-node": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-node-js": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-npm": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-ns8": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-nutritionix": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-odnoklassniki": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-odnoklassniki-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-opencart": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-openid": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-opera": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-optin-monster": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-osi": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-page4": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-pagelines": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-palfed": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-patreon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-paypal": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-periscope": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-phabricator": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-phoenix-framework": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-php": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-pied-piper": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-pied-piper-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-pied-piper-pp": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-pinterest": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-pinterest-p": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-pinterest-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-playstation": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-product-hunt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-pushed": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-python": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-qq": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-quinscape": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-quora": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-ravelry": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-react": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-readme": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-rebel": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-red-river": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-reddit": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-reddit-alien": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-reddit-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-renren": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-replyd": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-resolving": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-rocketchat": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-rockrms": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-safari": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-sass": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-schlix": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-scribd": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-searchengin": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-sellcast": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-sellsy": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-servicestack": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-shirtsinbulk": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-simplybuilt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-sistrix": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-skyatlas": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-skype": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-slack": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-slack-hash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-slideshare": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-snapchat": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-snapchat-ghost": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-snapchat-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-soundcloud": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-speakap": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-spotify": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-stack-exchange": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-stack-overflow": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-staylinked": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-steam": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-steam-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-steam-symbol": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-sticker-mule": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-strava": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-stripe": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-stripe-s": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-studiovinari": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-stumbleupon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-stumbleupon-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-superpowers": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-supple": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-telegram": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-telegram-plane": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-tencent-weibo": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-themeisle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-trello": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-tripadvisor": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-tumblr": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-tumblr-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-twitch": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-twitter": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-twitter-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-typo3": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-uber": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-uikit": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-uniregistry": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-untappd": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-usb": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-ussunnah": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-vaadin": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-viacoin": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-viadeo": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-viadeo-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-viber": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-vimeo": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-vimeo-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-vimeo-v": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-vine": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-vk": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-vnv": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-vuejs": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-weibo": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-weixin": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-whatsapp": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-whatsapp-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-whmcs": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-wikipedia-w": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-windows": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-wordpress": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-wordpress-simple": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-wpbeginner": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-wpexplorer": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-wpforms": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-xbox": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-xing": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-xing-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-y-combinator": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-yahoo": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-yandex": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-yandex-international": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-yelp": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-yoast": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-youtube": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fab fa-youtube-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    }
 }

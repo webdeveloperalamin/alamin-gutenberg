@@ -24,7 +24,7 @@ class IconSelector extends Component {
 	constructor(props) {
     super(props);
     this.state = {
-      value: 'fipicon-angle-left',
+      value: 'fas fa-star',
     };
   }
   handleChange = (value) => {
