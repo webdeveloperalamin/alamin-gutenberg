@@ -239,6 +239,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fonticonpicker_react_fonticonpicker_dist_fonticonpicker_material_theme_react_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fonticonpicker/react-fonticonpicker/dist/fonticonpicker.material-theme.react.css */ "./node_modules/@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.material-theme.react.css");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _AlaminIcon_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./AlaminIcon.json */ "./src/blocks/infobox/components/AlaminIcon.json");
+
 
 
 
@@ -260,6 +262,7 @@ const {
   Component,
   Fragment
 } = wp.element;
+let alamin_icons = Object.keys(_AlaminIcon_json__WEBPACK_IMPORTED_MODULE_6__);
 
 class IconSelector extends Component {
   constructor(props) {
@@ -278,7 +281,7 @@ class IconSelector extends Component {
 
   render() {
     const props = {
-      icons: ['fipicon-angle-left', 'fipicon-angle-right', 'fipicon-angle-up', 'fipicon-angle-down'],
+      icons: alamin_icons,
       theme: 'bluegrey',
       renderUsing: 'class',
       value: this.state.value,
@@ -4031,6 +4034,17 @@ module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-icon
 
 "use strict";
 module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-infobox","version":"0.1.0","title":"Gutenberg Infobox","category":"alaminblock","icon":"smiley","description":"Block to generate a custom Infobox.","supports":{"html":false},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
+
+/***/ }),
+
+/***/ "./src/blocks/infobox/components/AlaminIcon.json":
+/*!*******************************************************!*\
+  !*** ./src/blocks/infobox/components/AlaminIcon.json ***!
+  \*******************************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"fipicon-angle-left":{"class":["fipicon-angle-left"]},"fipicon-angle-right":{"class":["fipicon-angle-right"]},"fipicon-angle-up":{"class":["fipicon-angle-up"]},"fipicon-angle-down":{"class":["fipicon-angle-down"]},"fas fa-code-branch":{"class":["fas fa-code-branch"]}}');
 
 /***/ })
 

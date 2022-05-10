@@ -2,6 +2,7 @@ import FontIconPicker from '@fonticonpicker/react-fonticonpicker';
 import '@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.base-theme.react.css';
 import '@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.material-theme.react.css';
 import React from 'react';
+import AlaminIcon from './AlaminIcon.json';
 
  const {
 	PanelBody,
@@ -17,6 +18,7 @@ import React from 'react';
 
 const { Component, Fragment } = wp.element
 
+let alamin_icons = Object.keys( AlaminIcon )
 
 class IconSelector extends Component {
 	constructor(props) {
@@ -31,7 +33,7 @@ class IconSelector extends Component {
 	render() {	
 			
 		const props = {
-      icons: ['fipicon-angle-left', 'fipicon-angle-right', 'fipicon-angle-up', 'fipicon-angle-down'],
+      icons: alamin_icons,
       theme: 'bluegrey',
       renderUsing: 'class',
       value: this.state.value,

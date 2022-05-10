@@ -1,0 +1,27 @@
+{
+    "fipicon-angle-left": {
+        "class": [
+            "fipicon-angle-left"
+        ]
+    },
+    "fipicon-angle-right": {
+        "class": [
+            "fipicon-angle-right"
+        ]
+    },
+    "fipicon-angle-up": {
+        "class": [
+            "fipicon-angle-up"
+        ]
+    },
+    "fipicon-angle-down": {
+        "class": [
+            "fipicon-angle-down"
+        ]
+    },
+    "fas fa-code-branch": {
+        "class": [
+            "fas fa-code-branch"
+        ]
+    }
+}
