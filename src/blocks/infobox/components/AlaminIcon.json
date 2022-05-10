@@ -3,20 +3,2656 @@
         "unicode": "f26e",
         "label": "500px"
     },
-    "fas fa-abacus": {
-        "unicode": "f640",
-        "label": "Abacus"
+    "fab fa-accessible-icon": {
+        "unicode": "f368",
+        "label": "Accessible Icon"
     },
-    "far fa-abacus": {
-        "unicode": "f640",
-        "label": "Abacus"
+    "fab fa-accusoft": {
+        "unicode": "f369",
+        "label": "Accusoft"
     },
-    "fal fa-abacus": {
-        "unicode": "f640",
-        "label": "Abacus"
+    "fab fa-acquisitions-incorporated": {
+        "unicode": "f6af",
+        "label": "Acquisitions Incorporated"
     },
-    "fad fa-abacus": {
-        "unicode": "f640",
-        "label": "Abacus"
-    }
+    "fas fa-ad": {
+        "unicode": "f641",
+        "label": "AD"
+    },
+    "fas fa-address-book": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-address-card": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-adjust": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-align-center": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-align-justify": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-align-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-align-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-allergies": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-ambulance": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-american-sign-language-interpreting": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-anchor": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-angle-double-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-angle-double-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-angle-double-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-angle-double-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-angle-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-angle-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-angle-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-angle-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-archive": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-alt-circle-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-alt-circle-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-alt-circle-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-alt-circle-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-circle-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-circle-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-circle-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-circle-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrow-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrows-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrows-alt-h": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-arrows-alt-v": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-assistive-listening-systems": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-asterisk": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-at": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-audio-description": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-backward": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-balance-scale": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-ban": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-band-aid": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-barcode": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bars": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-baseball-ball": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-basketball-ball": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bath": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-battery-empty": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-battery-full": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-battery-half": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-battery-quarter": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-battery-three-quarters": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bed": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-beer": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bell": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bell-slash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bicycle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-binoculars": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-birthday-cake": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-blind": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bold": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bolt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bomb": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-book": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bookmark": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bowling-ball": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-box": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-box-open": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-boxes": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-braille": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-briefcase": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-briefcase-medical": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bug": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-building": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bullhorn": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bullseye": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-burn": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-bus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-calculator": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-calendar": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-calendar-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-calendar-check": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-calendar-minus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-calendar-plus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-calendar-times": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-camera": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-camera-retro": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-capsules": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-car": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-caret-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-caret-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-caret-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-caret-square-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-caret-square-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-caret-square-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-caret-square-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-caret-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cart-arrow-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cart-plus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-certificate": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chart-area": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chart-bar": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chart-line": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chart-pie": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-check": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-check-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-check-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chess": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chess-bishop": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chess-board": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chess-king": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chess-knight": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chess-pawn": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chess-queen": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chess-rook": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chevron-circle-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chevron-circle-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chevron-circle-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chevron-circle-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chevron-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chevron-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chevron-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-chevron-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-child": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-circle-notch": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-clipboard": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-clipboard-check": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-clipboard-list": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-clock": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-clone": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-closed-captioning": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cloud": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cloud-download-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cloud-upload-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-code": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-code-branch": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-coffee": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cog": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cogs": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-columns": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-comment": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-comment-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-comment-dots": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-comment-slash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-comments": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-compass": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-compress": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-copy": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-copyright": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-couch": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-credit-card": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-crop": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-crosshairs": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cube": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cubes": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-cut": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-database": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-deaf": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-desktop": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-diagnoses": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-dna": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-dollar-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-dolly": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-dolly-flatbed": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-donate": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-dot-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-dove": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-download": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-edit": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-eject": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-ellipsis-h": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-ellipsis-v": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-envelope": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-envelope-open": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-envelope-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-eraser": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-euro-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-exchange-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-exclamation": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-exclamation-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-exclamation-triangle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-expand": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-expand-arrows-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-external-link-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-external-link-square-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-eye": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-eye-dropper": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-eye-slash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-fast-backward": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-fast-forward": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-fax": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-female": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-fighter-jet": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-archive": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-audio": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-code": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-excel": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-image": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-medical": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-medical-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-pdf": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-powerpoint": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-video": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-file-word": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-film": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-filter": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-fire": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-fire-extinguisher": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-first-aid": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-flag": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-flag-checkered": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-flask": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-folder": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-folder-open": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-font": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-football-ball": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-forward": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-frown": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-futbol": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-gamepad": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-gavel": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-gem": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-genderless": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-gift": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-glass-martini": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-globe": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-golf-ball": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-graduation-cap": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-h-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-holding": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-holding-heart": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-holding-usd": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-lizard": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-paper": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-peace": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-point-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-point-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-point-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-point-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-pointer": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-rock": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-scissors": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hand-spock": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hands": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hands-helping": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-handshake": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hashtag": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hdd": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-heading": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-headphones": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-heart": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-heartbeat": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-history": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hockey-puck": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-home": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hospital": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hospital-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hospital-symbol": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hourglass": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hourglass-end": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hourglass-half": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-hourglass-start": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-i-cursor": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-id-badge": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-id-card": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-id-card-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-image": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-images": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-inbox": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-indent": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-industry": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-info": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-info-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-italic": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-key": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-keyboard": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-language": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-laptop": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-leaf": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-lemon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-level-down-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-level-up-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-life-ring": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-lightbulb": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-link": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-lira-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-list": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-list-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-list-ol": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-list-ul": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-location-arrow": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-lock": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-lock-open": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-long-arrow-alt-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-long-arrow-alt-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-long-arrow-alt-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-long-arrow-alt-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-low-vision": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-magic": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-magnet": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-male": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-map": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-map-marker": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-map-marker-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-map-pin": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-map-signs": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mars": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mars-double": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mars-stroke": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mars-stroke-h": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mars-stroke-v": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-medkit": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-meh": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mercury": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-microchip": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-microphone": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-microphone-slash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-minus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-minus-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-minus-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mobile": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mobile-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-money-bill-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-moon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-motorcycle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-mouse-pointer": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-music": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-neuter": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-newspaper": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-notes-medical": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-object-group": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-object-ungroup": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-outdent": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-paint-brush": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-pallet": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-paper-plane": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-paperclip": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-parachute-box": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-paragraph": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-paste": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-pause": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-pause-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-paw": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-pen-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-pencil-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-people-carry": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-percent": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-phone": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-phone-slash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-phone-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-phone-volume": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-piggy-bank": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-pills": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-plane": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-play": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-play-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-plug": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-plus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-plus-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-plus-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-podcast": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-poo": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-pound-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-power-off": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-prescription-bottle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-prescription-bottle-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-print": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-procedures": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-puzzle-piece": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-qrcode": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-question": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-question-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-quidditch": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-quote-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-quote-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-random": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-recycle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-redo": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-redo-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-registered": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-reply": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-reply-all": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-retweet": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-ribbon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-road": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-rocket": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-rss": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-rss-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-ruble-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-rupee-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-save": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-search": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-search-minus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-search-plus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-seedling": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-server": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-share": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-share-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-share-alt-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-share-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-shekel-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-shield-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-ship": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-shipping-fast": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-shopping-bag": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-shopping-basket": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-shopping-cart": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-shower": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sign-in-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sign-language": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sign-out-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-signal": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sitemap": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sliders-h": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-smile": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-smoking": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-snowflake": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort-alpha-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort-alpha-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort-amount-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort-amount-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort-numeric-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort-numeric-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sort-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-space-shuttle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-spinner": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-square": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-square-full": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-star": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-star-half": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-step-backward": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-step-forward": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-stethoscope": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sticky-note": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-stop": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-stop-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-stopwatch": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-street-view": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-strikethrough": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-subscript": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-subway": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-suitcase": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sun": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-superscript": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sync": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-sync-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-syringe": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-table": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-table-tennis": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tablet": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tablet-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tablets": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tachometer-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tag": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tags": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tape": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tasks": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-taxi": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-terminal": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-text-height": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-text-width": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-th": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-th-large": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-th-list": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thermometer": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thermometer-empty": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thermometer-full": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thermometer-half": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thermometer-quarter": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thermometer-three-quarters": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thumbs-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thumbs-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-thumbtack": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-ticket-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-times": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-times-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tint": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-toggle-off": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-toggle-on": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-trademark": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-train": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-transgender": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-transgender-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-trash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-trash-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tree": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-trophy": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-truck": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-truck-loading": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-truck-moving": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tty": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-tv": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-umbrella": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-underline": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-undo": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-undo-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-universal-access": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-university": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-unlink": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-unlock": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-unlock-alt": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-upload": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-user": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-user-circle": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-user-md": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-user-plus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-user-secret": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-user-times": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-users": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-utensil-spoon": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-utensils": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-venus": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-venus-double": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-venus-mars": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-vial": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-vials": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-video": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-video-slash": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-volleyball-ball": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-volume-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-volume-off": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-volume-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-warehouse": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-weight": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-wheelchair": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-wifi": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-window-close": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-window-maximize": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-window-minimize": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-window-restore": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-wine-glass": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-won-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-wrench": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-x-ray": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "fas fa-yen-sign": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-address-book": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-address-card": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-arrow-alt-circle-down": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-arrow-alt-circle-left": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-arrow-alt-circle-right": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-arrow-alt-circle-up": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-bell": {
+        "unicode": "f2b9",
+        "label": "Address Book"
+    },
+    "far fa-bell-slash",
+    "far fa-bookmark",
+    "far fa-building",
+    "far fa-calendar",
+    "far fa-calendar-alt",
+    "far fa-calendar-check",
+    "far fa-calendar-minus",
+    "far fa-calendar-plus",
+    "far fa-calendar-times",
+    "far fa-caret-square-down",
+    "far fa-caret-square-left",
+    "far fa-caret-square-right",
+    "far fa-caret-square-up",
+    "far fa-chart-bar",
+    "far fa-check-circle",
+    "far fa-check-square",
+    "far fa-circle",
+    "far fa-clipboard",
+    "far fa-clock",
+    "far fa-clone",
+    "far fa-closed-captioning",
+    "far fa-comment",
+    "far fa-comment-alt",
+    "far fa-comments",
+    "far fa-compass",
+    "far fa-copy",
+    "far fa-copyright",
+    "far fa-credit-card",
+    "far fa-dot-circle",
+    "far fa-edit",
+    "far fa-envelope",
+    "far fa-envelope-open",
+    "far fa-eye-slash",
+    "far fa-file",
+    "far fa-file-alt",
+    "far fa-file-archive",
+    "far fa-file-audio",
+    "far fa-file-code",
+    "far fa-file-excel",
+    "far fa-file-image",
+    "far fa-file-pdf",
+    "far fa-file-powerpoint",
+    "far fa-file-video",
+    "far fa-file-word",
+    "far fa-flag",
+    "far fa-folder",
+    "far fa-folder-open",
+    "far fa-frown",
+    "far fa-futbol",
+    "far fa-gem",
+    "far fa-hand-lizard",
+    "far fa-hand-paper",
+    "far fa-hand-peace",
+    "far fa-hand-point-down",
+    "far fa-hand-point-left",
+    "far fa-hand-point-right",
+    "far fa-hand-point-up",
+    "far fa-hand-pointer",
+    "far fa-hand-rock",
+    "far fa-hand-scissors",
+    "far fa-hand-spock",
+    "far fa-handshake",
+    "far fa-hdd",
+    "far fa-heart",
+    "far fa-hospital",
+    "far fa-hourglass",
+    "far fa-id-badge",
+    "far fa-id-card",
+    "far fa-image",
+    "far fa-images",
+    "far fa-keyboard",
+    "far fa-lemon",
+    "far fa-life-ring",
+    "far fa-lightbulb",
+    "far fa-list-alt",
+    "far fa-map",
+    "far fa-meh",
+    "far fa-minus-square",
+    "far fa-money-bill-alt",
+    "far fa-moon",
+    "far fa-newspaper",
+    "far fa-object-group",
+    "far fa-object-ungroup",
+    "far fa-paper-plane",
+    "far fa-pause-circle",
+    "far fa-play-circle",
+    "far fa-plus-square",
+    "far fa-question-circle",
+    "far fa-registered",
+    "far fa-save",
+    "far fa-share-square",
+    "far fa-smile",
+    "far fa-snowflake",
+    "far fa-square",
+    "far fa-star",
+    "far fa-star-half",
+    "far fa-sticky-note",
+    "far fa-stop-circle",
+    "far fa-sun",
+    "far fa-thumbs-down",
+    "far fa-thumbs-up",
+    "far fa-times-circle",
+    "far fa-trash-alt",
+    "far fa-user",
+    "far fa-user-circle",
+    "far fa-window-close",
+    "far fa-window-maximize",
+    "far fa-window-minimize",
+    "far fa-window-restore",
+    "fab fa-500px",
+    "fab fa-accessible-icon",
+    "fab fa-accusoft",
+    "fab fa-adn",
+    "fab fa-adversal",
+    "fab fa-affiliatetheme",
+    "fab fa-algolia",
+    "fab fa-amazon",
+    "fab fa-amazon-pay",
+    "fab fa-amilia",
+    "fab fa-android",
+    "fab fa-angellist",
+    "fab fa-angrycreative",
+    "fab fa-angular",
+    "fab fa-app-store",
+    "fab fa-app-store-ios",
+    "fab fa-apper",
+    "fab fa-apple",
+    "fab fa-apple-pay",
+    "fab fa-asymmetrik",
+    "fab fa-audible",
+    "fab fa-autoprefixer",
+    "fab fa-avianex",
+    "fab fa-aviato",
+    "fab fa-aws",
+    "fab fa-bandcamp",
+    "fab fa-behance",
+    "fab fa-behance-square",
+    "fab fa-bimobject",
+    "fab fa-bitbucket",
+    "fab fa-bitcoin",
+    "fab fa-bity",
+    "fab fa-black-tie",
+    "fab fa-blackberry",
+    "fab fa-blogger",
+    "fab fa-blogger-b",
+    "fab fa-bluetooth",
+    "fab fa-bluetooth-b",
+    "fab fa-btc",
+    "fab fa-buromobelexperte",
+    "fab fa-buysellads",
+    "fab fa-cc-amazon-pay",
+    "fab fa-cc-amex",
+    "fab fa-cc-apple-pay",
+    "fab fa-cc-diners-club",
+    "fab fa-cc-discover",
+    "fab fa-cc-jcb",
+    "fab fa-cc-mastercard",
+    "fab fa-cc-paypal",
+    "fab fa-cc-stripe",
+    "fab fa-cc-visa",
+    "fab fa-centercode",
+    "fab fa-chrome",
+    "fab fa-cloudscale",
+    "fab fa-cloudsmith",
+    "fab fa-cloudversify",
+    "fab fa-codepen",
+    "fab fa-codiepie",
+    "fab fa-connectdevelop",
+    "fab fa-contao",
+    "fab fa-cpanel",
+    "fab fa-creative-commons",
+    "fab fa-css3",
+    "fab fa-css3-alt",
+    "fab fa-cuttlefish",
+    "fab fa-d-and-d",
+    "fab fa-dashcube",
+    "fab fa-delicious",
+    "fab fa-deploydog",
+    "fab fa-deskpro",
+    "fab fa-deviantart",
+    "fab fa-digg",
+    "fab fa-digital-ocean",
+    "fab fa-discord",
+    "fab fa-discourse",
+    "fab fa-dochub",
+    "fab fa-docker",
+    "fab fa-draft2digital",
+    "fab fa-dribbble",
+    "fab fa-dribbble-square",
+    "fab fa-dropbox",
+    "fab fa-drupal",
+    "fab fa-dyalog",
+    "fab fa-earlybirds",
+    "fab fa-edge",
+    "fab fa-elementor",
+    "fab fa-ember",
+    "fab fa-empire",
+    "fab fa-envira",
+    "fab fa-erlang",
+    "fab fa-ethereum",
+    "fab fa-etsy",
+    "fab fa-expeditedssl",
+    "fab fa-facebook",
+    "fab fa-facebook-f",
+    "fab fa-facebook-messenger",
+    "fab fa-facebook-square",
+    "fab fa-firefox",
+    "fab fa-first-order",
+    "fab fa-firstdraft",
+    "fab fa-flickr",
+    "fab fa-flipboard",
+    "fab fa-fly",
+    "fab fa-font-awesome",
+    "fab fa-font-awesome-alt",
+    "fab fa-font-awesome-flag",
+    "fab fa-fonticons",
+    "fab fa-fonticons-fi",
+    "fab fa-fort-awesome",
+    "fab fa-fort-awesome-alt",
+    "fab fa-forumbee",
+    "fab fa-foursquare",
+    "fab fa-free-code-camp",
+    "fab fa-freebsd",
+    "fab fa-get-pocket",
+    "fab fa-gg",
+    "fab fa-gg-circle",
+    "fab fa-git",
+    "fab fa-git-square",
+    "fab fa-github",
+    "fab fa-github-alt",
+    "fab fa-github-square",
+    "fab fa-gitkraken",
+    "fab fa-gitlab",
+    "fab fa-gitter",
+    "fab fa-glide",
+    "fab fa-glide-g",
+    "fab fa-gofore",
+    "fab fa-goodreads",
+    "fab fa-goodreads-g",
+    "fab fa-google",
+    "fab fa-google-drive",
+    "fab fa-google-play",
+    "fab fa-google-plus",
+    "fab fa-google-plus-g",
+    "fab fa-google-plus-square",
+    "fab fa-google-wallet",
+    "fab fa-gratipay",
+    "fab fa-grav",
+    "fab fa-gripfire",
+    "fab fa-grunt",
+    "fab fa-gulp",
+    "fab fa-hacker-news",
+    "fab fa-hacker-news-square",
+    "fab fa-hips",
+    "fab fa-hire-a-helper",
+    "fab fa-hooli",
+    "fab fa-hotjar",
+    "fab fa-houzz",
+    "fab fa-html5",
+    "fab fa-hubspot",
+    "fab fa-imdb",
+    "fab fa-instagram",
+    "fab fa-internet-explorer",
+    "fab fa-ioxhost",
+    "fab fa-itunes",
+    "fab fa-itunes-note",
+    "fab fa-jenkins",
+    "fab fa-joget",
+    "fab fa-joomla",
+    "fab fa-js",
+    "fab fa-js-square",
+    "fab fa-jsfiddle",
+    "fab fa-keycdn",
+    "fab fa-kickstarter",
+    "fab fa-kickstarter-k",
+    "fab fa-korvue",
+    "fab fa-laravel",
+    "fab fa-lastfm",
+    "fab fa-lastfm-square",
+    "fab fa-leanpub",
+    "fab fa-less",
+    "fab fa-line",
+    "fab fa-linkedin",
+    "fab fa-linkedin-in",
+    "fab fa-linode",
+    "fab fa-linux",
+    "fab fa-lyft",
+    "fab fa-magento",
+    "fab fa-maxcdn",
+    "fab fa-medapps",
+    "fab fa-medium",
+    "fab fa-medium-m",
+    "fab fa-medrt",
+    "fab fa-meetup",
+    "fab fa-microsoft",
+    "fab fa-mix",
+    "fab fa-mixcloud",
+    "fab fa-mizuni",
+    "fab fa-modx",
+    "fab fa-monero",
+    "fab fa-napster",
+    "fab fa-nintendo-switch",
+    "fab fa-node",
+    "fab fa-node-js",
+    "fab fa-npm",
+    "fab fa-ns8",
+    "fab fa-nutritionix",
+    "fab fa-odnoklassniki",
+    "fab fa-odnoklassniki-square",
+    "fab fa-opencart",
+    "fab fa-openid",
+    "fab fa-opera",
+    "fab fa-optin-monster",
+    "fab fa-osi",
+    "fab fa-page4",
+    "fab fa-pagelines",
+    "fab fa-palfed",
+    "fab fa-patreon",
+    "fab fa-paypal",
+    "fab fa-periscope",
+    "fab fa-phabricator",
+    "fab fa-phoenix-framework",
+    "fab fa-php",
+    "fab fa-pied-piper",
+    "fab fa-pied-piper-alt",
+    "fab fa-pied-piper-pp",
+    "fab fa-pinterest",
+    "fab fa-pinterest-p",
+    "fab fa-pinterest-square",
+    "fab fa-playstation",
+    "fab fa-product-hunt",
+    "fab fa-pushed",
+    "fab fa-python",
+    "fab fa-qq",
+    "fab fa-quinscape",
+    "fab fa-quora",
+    "fab fa-ravelry",
+    "fab fa-react",
+    "fab fa-readme",
+    "fab fa-rebel",
+    "fab fa-red-river",
+    "fab fa-reddit",
+    "fab fa-reddit-alien",
+    "fab fa-reddit-square",
+    "fab fa-rendact",
+    "fab fa-renren",
+    "fab fa-replyd",
+    "fab fa-resolving",
+    "fab fa-rocketchat",
+    "fab fa-rockrms",
+    "fab fa-safari",
+    "fab fa-sass",
+    "fab fa-schlix",
+    "fab fa-scribd",
+    "fab fa-searchengin",
+    "fab fa-sellcast",
+    "fab fa-sellsy",
+    "fab fa-servicestack",
+    "fab fa-shirtsinbulk",
+    "fab fa-simplybuilt",
+    "fab fa-sistrix",
+    "fab fa-skyatlas",
+    "fab fa-skype",
+    "fab fa-slack",
+    "fab fa-slack-hash",
+    "fab fa-slideshare",
+    "fab fa-snapchat",
+    "fab fa-snapchat-ghost",
+    "fab fa-snapchat-square",
+    "fab fa-soundcloud",
+    "fab fa-speakap",
+    "fab fa-spotify",
+    "fab fa-stack-exchange",
+    "fab fa-stack-overflow",
+    "fab fa-staylinked",
+    "fab fa-steam",
+    "fab fa-steam-square",
+    "fab fa-steam-symbol",
+    "fab fa-sticker-mule",
+    "fab fa-strava",
+    "fab fa-stripe",
+    "fab fa-stripe-s",
+    "fab fa-studiovinari",
+    "fab fa-stumbleupon",
+    "fab fa-stumbleupon-circle",
+    "fab fa-superpowers",
+    "fab fa-supple",
+    "fab fa-telegram",
+    "fab fa-telegram-plane",
+    "fab fa-tencent-weibo",
+    "fab fa-themeisle",
+    "fab fa-trello",
+    "fab fa-tripadvisor",
+    "fab fa-tumblr",
+    "fab fa-tumblr-square",
+    "fab fa-twitch",
+    "fab fa-twitter",
+    "fab fa-twitter-square",
+    "fab fa-typo3",
+    "fab fa-uber",
+    "fab fa-uikit",
+    "fab fa-uniregistry",
+    "fab fa-untappd",
+    "fab fa-usb",
+    "fab fa-ussunnah",
+    "fab fa-vaadin",
+    "fab fa-viacoin",
+    "fab fa-viadeo",
+    "fab fa-viadeo-square",
+    "fab fa-viber",
+    "fab fa-vimeo",
+    "fab fa-vimeo-square",
+    "fab fa-vimeo-v",
+    "fab fa-vine",
+    "fab fa-vk",
+    "fab fa-vnv",
+    "fab fa-vuejs",
+    "fab fa-weibo",
+    "fab fa-weixin",
+    "fab fa-whatsapp",
+    "fab fa-whatsapp-square",
+    "fab fa-whmcs",
+    "fab fa-wikipedia-w",
+    "fab fa-windows",
+    "fab fa-wordpress",
+    "fab fa-wordpress-simple",
+    "fab fa-wpbeginner",
+    "fab fa-wpexplorer",
+    "fab fa-wpforms",
+    "fab fa-xbox",
+    "fab fa-xing",
+    "fab fa-xing-square",
+    "fab fa-y-combinator",
+    "fab fa-yahoo",
+    "fab fa-yandex",
+    "fab fa-yandex-international",
+    "fab fa-yelp",
+    "fab fa-yoast",
+    "fab fa-youtube",
+    "fab fa-youtube-square"
 }
