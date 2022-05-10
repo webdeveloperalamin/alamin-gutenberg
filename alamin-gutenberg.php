@@ -29,6 +29,9 @@ add_action( 'init', 'create_block_alamin_gutenberg_block_init' );
 
 function alamin_enqueue_blocks_scripts() {
 	$asset_file = require plugin_dir_path( __FILE__ ) . 'build/index.asset.php';
+
+	wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.8.1/css/all.css', '', '5.8.1', 'all');
+
 	wp_enqueue_script( 'alamin-main', plugins_url( '/build/index.js', __FILE__ ), $asset_file['dependencies'], 1.0, false);
 }
 add_action( 'enqueue_block_editor_assets', 'alamin_enqueue_blocks_scripts');

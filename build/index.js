@@ -4044,7 +4044,7 @@ module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-info
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"fipicon-angle-left":{"class":["fipicon-angle-left"]},"fipicon-angle-right":{"class":["fipicon-angle-right"]},"fipicon-angle-up":{"class":["fipicon-angle-up"]},"fipicon-angle-down":{"class":["fipicon-angle-down"]},"fas fa-code-branch":{"class":["fas fa-code-branch"]}}');
+module.exports = JSON.parse('{"fab fa-500px":{"unicode":"f26e","label":"500px"},"fas fa-abacus":{"unicode":"f640","label":"Abacus"},"far fa-abacus":{"unicode":"f640","label":"Abacus"},"fal fa-abacus":{"unicode":"f640","label":"Abacus"},"fad fa-abacus":{"unicode":"f640","label":"Abacus"}}');
 
 /***/ })
 

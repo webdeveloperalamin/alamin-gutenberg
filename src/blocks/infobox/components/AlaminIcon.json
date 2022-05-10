@@ -1,27 +1,22 @@
 {
-    "fipicon-angle-left": {
-        "class": [
-            "fipicon-angle-left"
-        ]
+    "fab fa-500px": {
+        "unicode": "f26e",
+        "label": "500px"
     },
-    "fipicon-angle-right": {
-        "class": [
-            "fipicon-angle-right"
-        ]
+    "fas fa-abacus": {
+        "unicode": "f640",
+        "label": "Abacus"
     },
-    "fipicon-angle-up": {
-        "class": [
-            "fipicon-angle-up"
-        ]
+    "far fa-abacus": {
+        "unicode": "f640",
+        "label": "Abacus"
     },
-    "fipicon-angle-down": {
-        "class": [
-            "fipicon-angle-down"
-        ]
+    "fal fa-abacus": {
+        "unicode": "f640",
+        "label": "Abacus"
     },
-    "fas fa-code-branch": {
-        "class": [
-            "fas fa-code-branch"
-        ]
+    "fad fa-abacus": {
+        "unicode": "f640",
+        "label": "Abacus"
     }
 }
