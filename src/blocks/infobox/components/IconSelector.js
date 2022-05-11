@@ -40,6 +40,8 @@ class IconSelector extends Component {
       onChange: this.handleChange,
       isMulti: false,
     };
+
+    console.log(props.onChange);
 		
 		return (
       <div className='iconselector-wrapper'>

@@ -13,6 +13,9 @@ import { __ } from '@wordpress/i18n';
  */
 import { useBlockProps } from '@wordpress/block-editor';
 
+import InfoboxIcon from "./components/Icon"
+
+
 /**
  * The save function defines the way in which the different attributes should
  * be combined into the final markup, which is then serialized by the block
@@ -22,13 +25,20 @@ import { useBlockProps } from '@wordpress/block-editor';
  *
  * @return {WPElement} Element to render.
  */
-export default function save() {
+export default function save(props) {
+	const {
+		iconimgPosition,
+		source_type,
+		icon
+	} = props.attributes
+
 	return (
-		<p {...useBlockProps.save()}>
+		<div {...useBlockProps.save()}>
+			{/*<InfoboxIcon attributes={ props.attributes }/>*/}
 			{__(
 				'Alamin Gutenberg – hello from the saved content!',
 				'alamin-gutenberg'
 			)}
-		</p>
+		</div>
 	);
 }

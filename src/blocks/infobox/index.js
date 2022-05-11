@@ -29,8 +29,31 @@ import save from './save';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
+
+const attributes = {
+    icon: {
+		type : "string",
+		default : "fab fa-500px"
+	},
+    iconimgPosition: {
+		type: "string",
+		default: "above-title"
+	},
+    source_type :{
+		type: "string",
+		default: "icon",
+	},
+	iconSize : {
+		type: "number",
+		default: 40,
+	},
+}
+
+
 registerBlockType(name, {
     title,
+
+    attributes,
     /**
      * @see ./edit.js
      */

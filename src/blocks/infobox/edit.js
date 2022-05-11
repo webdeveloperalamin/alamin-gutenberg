@@ -17,6 +17,8 @@ import { PanelBody, SelectControl, IconButton, RangeControl } from '@wordpress/c
 
 import IconSelector from './components/IconSelector';
 
+import InfoboxIcon from './components/Icon';
+
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
  * Those files can contain any CSS code that gets applied to the editor.
@@ -35,19 +37,43 @@ import './editor.scss';
  */
 
 
-export default function Edit() {
+export default function Edit({ attributes, setAttributes }) {
 	const blockProps = useBlockProps( {
 		className: 'infobox-wrapper',
 	} );
-	
+
+	const {
+		icon,
+		iconimgPosition,
+		source_type,
+		iconSize
+	} = attributes;
+
+	// custom functions
+	function onChangeIcon(newIcon) {
+		setAttributes( { icon: newIcon } );
+	}
+
+	function onChangeIconImagePosition(newIconImagePosition) {
+		setAttributes( { iconimgPosition: newIconImagePosition } );
+	}
+
+	function onChangeSourceType(newSourceType) {
+		setAttributes( { source_type: newSourceType } );
+	}
+
+	function onChangeIconSize(newIconSize) {
+		setAttributes( { iconSize: newIconSize } );
+	}
+	//console.log(IconSelector.handleChange);
 	return (
 		<>
 			<InspectorControls style={ { marginBottom: '40px' } }>
 				<PanelBody title={ 'Image/Icon' }>
 				<SelectControl
 						label={ __( "Icon/Image Position", 'alamin-gutenberg' ) }
-						//value={ iconimgPosition }
-						//onChange={ ( value ) => setAttributes( { iconimgPosition: value } ) }
+						value={ iconimgPosition }
+						onChange={ ( value ) => setAttributes( { iconimgPosition: value } ) }
 						options={ [
 							{ value: "above-title", label: __( "Above Title", 'alamin-gutenberg' ) },
 							{ value: "left-title", label: __( "Left of Title", 'alamin-gutenberg' ) },
@@ -57,18 +83,22 @@ export default function Edit() {
 					/>
 					<SelectControl
 						label={ __( "Select Source", 'alamin-gutenberg' ) }
-						//value={ source_type }
-						//onChange={ ( value ) => setAttributes( { source_type: value } ) }
+						value={ source_type }
+						onChange={ ( value ) => setAttributes( { source_type: value } ) }
 						options={ [
 							{ value: "icon", label: __( "Icon", 'alamin-gutenberg' ) },
 							{ value: "image", label: __( "Image", 'alamin-gutenberg' ) },
 						] }
 					/>
-					<IconSelector />
+					<IconSelector 
+						label={ __( "Select Icon", 'alamin-gutenberg' ) } 
+						value={ icon }
+						onChange={ ( value ) => setAttributes( { icon: value } ) }
+					/>
 					<RangeControl
 						label = { __( "Icon Size", 'alamin-gutenberg' ) }
-						//value = { iconSize }
-						//onChange = { ( value ) => setAttributes( { iconSize: value } ) }
+						value = { iconSize }
+						onChange = { ( value ) => setAttributes( { iconSize: value } ) }
 						min = { 10 }
 						max = { 300 }
 						beforeIcon = ""
@@ -76,8 +106,9 @@ export default function Edit() {
 					/>					
 				</PanelBody>
 			</InspectorControls>
-			<div { ...blockProps } >
+			<div { ...blockProps } >				
 				<div className="infobox-text" >
+					<InfoboxIcon attributes={ attributes }/>
 					{__(
 						'Gutenberg Infobox – hello from the editor!',
 						'alamin-gutenberg'
