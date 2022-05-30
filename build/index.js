@@ -324,8 +324,7 @@ class IconSelector extends Component {
       onChange: this.handleChange,
       isMulti: false
     };
-    console.log(props.onChange);
-    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("div", {
+    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("di", {
       className: "iconselector-wrapper"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)((_fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_2___default()), props));
   }
@@ -333,6 +332,161 @@ class IconSelector extends Component {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (IconSelector);
+
+/***/ }),
+
+/***/ "./src/blocks/infobox/components/InfoboxControls.js":
+/*!**********************************************************!*\
+  !*** ./src/blocks/infobox/components/InfoboxControls.js ***!
+  \**********************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fonticonpicker/react-fonticonpicker */ "./node_modules/@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.react.js");
+/* harmony import */ var _fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _fonticonpicker_react_fonticonpicker_dist_fonticonpicker_base_theme_react_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fonticonpicker/react-fonticonpicker/dist/fonticonpicker.base-theme.react.css */ "./node_modules/@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.base-theme.react.css");
+/* harmony import */ var _fonticonpicker_react_fonticonpicker_dist_fonticonpicker_material_theme_react_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fonticonpicker/react-fonticonpicker/dist/fonticonpicker.material-theme.react.css */ "./node_modules/@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.material-theme.react.css");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _AlaminIcon_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./AlaminIcon.json */ "./src/blocks/infobox/components/AlaminIcon.json");
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lodash */ "lodash");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
+/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_10__);
+
+
+
+
+
+
+
+
+
+
+
+
+
+let alamin_icons = Object.keys(_AlaminIcon_json__WEBPACK_IMPORTED_MODULE_6__);
+
+class InfoboxControls extends _wordpress_element__WEBPACK_IMPORTED_MODULE_1__.Component {
+  constructor() {
+    super(...arguments);
+
+    (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "onChangeIcon", newIcon => {
+      setAttributes({
+        icon: newIcon
+      });
+    });
+
+    (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "onChangeIconImagePosition", newIconImagePosition => {
+      setAttributes({
+        iconimgPosition: newIconImagePosition
+      });
+    });
+
+    (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "onChangeSourceType", newSourceType => {
+      setAttributes({
+        iconSourceType: newSourceType
+      });
+    });
+
+    (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "onChangeIconSize", newIconSize => {
+      setAttributes({
+        iconSize: newIconSize
+      });
+    });
+
+    (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "onChangePaddingSize", newPaddingSize => {
+      setAttributes({
+        paddingSize: newPaddingSize
+      });
+    });
+  }
+
+  render() {
+    const {
+      setAttributes,
+      attributes
+    } = this.props;
+    const {
+      icon,
+      iconimgPosition,
+      iconSourceType,
+      iconSize
+    } = attributes;
+    const iconprops = {
+      icons: alamin_icons,
+      theme: 'bluegrey',
+      renderUsing: 'class',
+      value: icon,
+      onChange: this.onChangeIcon,
+      isMulti: false
+    };
+    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_10__.InspectorControls, {
+      style: {
+        marginBottom: '40px'
+      }
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_8__.PanelBody, {
+      title: 'Image/Icon'
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_8__.SelectControl, {
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)("Icon/Image Position", 'alamin-gutenberg'),
+      value: this.state.iconimgPosition,
+      onChange: value => setAttributes({
+        iconimgPosition: value
+      }),
+      options: [{
+        value: "above-title",
+        label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)("Above Title", 'alamin-gutenberg')
+      }, {
+        value: "left-title",
+        label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)("Left of Title", 'alamin-gutenberg')
+      }, {
+        value: "left",
+        label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)("Left of Text and Title", 'alamin-gutenberg')
+      }]
+    }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_8__.SelectControl, {
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)("Select Source", 'alamin-gutenberg'),
+      value: this.state.iconSourceType,
+      onChange: value => setAttributes({
+        iconSourceType: value
+      }),
+      options: [{
+        value: "icon",
+        label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)("Icon", 'alamin-gutenberg')
+      }, {
+        value: "image",
+        label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)("Image", 'alamin-gutenberg')
+      }]
+    }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("div", {
+      className: "iconselector-wrapper"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)((_fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_2___default()), iconprops)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_8__.RangeControl, {
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)("Icon Size", 'alamin-gutenberg'),
+      value: this.state.iconSize,
+      onChange: value => setAttributes({
+        iconSize: value
+      }),
+      min: 10,
+      max: 300,
+      beforeIcon: "",
+      allowReset: true
+    }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("div", {
+      className: "infobox-text"
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("p", null, "Current Icon: ", this.state.icon), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("p", null, "Current Position: ", this.state.iconimgPosition), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("p", null, "Current Source: ", this.state.iconSourceType), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("p", null, "Current Size: ", this.state.iconSize), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("i", {
+      className: this.state.icon
+    }), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_7__.__)('Gutenberg Infobox – hello from the infobox editor!', 'alamin-gutenberg')));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (InfoboxControls);
 
 /***/ }),
 
@@ -356,8 +510,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_IconSelector__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/IconSelector */ "./src/blocks/infobox/components/IconSelector.js");
-/* harmony import */ var _components_Icon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Icon */ "./src/blocks/infobox/components/Icon.js");
-/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./editor.scss */ "./src/blocks/infobox/editor.scss");
+/* harmony import */ var _components_InfoboxControls__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/InfoboxControls */ "./src/blocks/infobox/components/InfoboxControls.js");
+/* harmony import */ var _components_Icon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Icon */ "./src/blocks/infobox/components/Icon.js");
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./editor.scss */ "./src/blocks/infobox/editor.scss");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @fonticonpicker/react-fonticonpicker */ "./node_modules/@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.react.js");
+/* harmony import */ var _fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _components_AlaminIcon_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/AlaminIcon.json */ "./src/blocks/infobox/components/AlaminIcon.json");
 
 
 /**
@@ -372,6 +532,8 @@ __webpack_require__.r(__webpack_exports__);
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
+
+
 
 
 
@@ -394,102 +556,26 @@ __webpack_require__.r(__webpack_exports__);
  * @return {WPElement} Element to render.
  */
 
-function Edit(_ref) {
-  let {
-    attributes,
-    setAttributes
-  } = _ref;
+
+
+
+function Edit(props) {
+  console.log('edit-props', props);
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)({
     className: 'infobox-wrapper'
   });
-  const {
-    icon,
-    iconimgPosition,
-    source_type,
-    iconSize
-  } = attributes; // custom functions
+  /*let alamin_icons = Object.keys( AlaminIcon );
+  
+  const iconprops = {
+  	icons: alamin_icons,
+  	theme: 'bluegrey',
+  	renderUsing: 'class',
+  	value: this.state.icon,
+  	onChange: this.onChangeIcon,
+  	isMulti: false,
+  };*/
 
-  function onChangeIcon(newIcon) {
-    setAttributes({
-      icon: newIcon
-    });
-  }
-
-  function onChangeIconImagePosition(newIconImagePosition) {
-    setAttributes({
-      iconimgPosition: newIconImagePosition
-    });
-  }
-
-  function onChangeSourceType(newSourceType) {
-    setAttributes({
-      source_type: newSourceType
-    });
-  }
-
-  function onChangeIconSize(newIconSize) {
-    setAttributes({
-      iconSize: newIconSize
-    });
-  } //console.log(IconSelector.handleChange);
-
-
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InspectorControls, {
-    style: {
-      marginBottom: '40px'
-    }
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelBody, {
-    title: 'Image/Icon'
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.SelectControl, {
-    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Icon/Image Position", 'alamin-gutenberg'),
-    value: iconimgPosition,
-    onChange: value => setAttributes({
-      iconimgPosition: value
-    }),
-    options: [{
-      value: "above-title",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Above Title", 'alamin-gutenberg')
-    }, {
-      value: "left-title",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Left of Title", 'alamin-gutenberg')
-    }, {
-      value: "left",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Left of Text and Title", 'alamin-gutenberg')
-    }]
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.SelectControl, {
-    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Select Source", 'alamin-gutenberg'),
-    value: source_type,
-    onChange: value => setAttributes({
-      source_type: value
-    }),
-    options: [{
-      value: "icon",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Icon", 'alamin-gutenberg')
-    }, {
-      value: "image",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Image", 'alamin-gutenberg')
-    }]
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_IconSelector__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Select Icon", 'alamin-gutenberg'),
-    value: icon,
-    onChange: value => setAttributes({
-      icon: value
-    })
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.RangeControl, {
-    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Icon Size", 'alamin-gutenberg'),
-    value: iconSize,
-    onChange: value => setAttributes({
-      iconSize: value
-    }),
-    min: 10,
-    max: 300,
-    beforeIcon: "",
-    allowReset: true
-  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "infobox-text"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_Icon__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    attributes: attributes
-  }), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Gutenberg Infobox – hello from the editor!', 'alamin-gutenberg'))));
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_InfoboxControls__WEBPACK_IMPORTED_MODULE_5__["default"], null)));
 }
 
 /***/ }),
@@ -543,13 +629,13 @@ const {
 const attributes = {
   icon: {
     type: "string",
-    default: "fab fa-500px"
+    default: "fas fa-star"
   },
   iconimgPosition: {
     type: "string",
     default: "above-title"
   },
-  source_type: {
+  iconSourceType: {
     type: "string",
     default: "icon"
   },
@@ -3974,6 +4060,17 @@ module.exports = window["React"];
 
 "use strict";
 module.exports = window["ReactDOM"];
+
+/***/ }),
+
+/***/ "lodash":
+/*!*************************!*\
+  !*** external "lodash" ***!
+  \*************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = window["lodash"];
 
 /***/ }),
 

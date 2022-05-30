@@ -31,15 +31,15 @@ import save from './save';
  */
 
 const attributes = {
-    icon: {
+  icon: {
 		type : "string",
-		default : "fab fa-500px"
+		default : "fas fa-star"
 	},
-    iconimgPosition: {
+  iconimgPosition: {
 		type: "string",
 		default: "above-title"
 	},
-    source_type :{
+  iconSourceType :{
 		type: "string",
 		default: "icon",
 	},

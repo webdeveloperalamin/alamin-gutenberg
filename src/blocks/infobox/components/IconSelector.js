@@ -41,12 +41,12 @@ class IconSelector extends Component {
       isMulti: false,
     };
 
-    console.log(props.onChange);
+
 		
 		return (
-      <div className='iconselector-wrapper'>
+      <di className='iconselector-wrapper'>
         <FontIconPicker {...props}/>
-      </div>				
+      </di>				
 		);
 	}
 }

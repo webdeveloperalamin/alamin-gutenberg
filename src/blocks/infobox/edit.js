@@ -15,7 +15,10 @@ import { useBlockProps, RichText, InspectorControls, ColorPalette, MediaUpload }
 
 import { PanelBody, SelectControl, IconButton, RangeControl } from '@wordpress/components';
 
+import {Component} from "@wordpress/element";
+
 import IconSelector from './components/IconSelector';
+import InfoboxControls from './components/InfoboxControls';
 
 import InfoboxIcon from './components/Icon';
 
@@ -36,85 +39,38 @@ import './editor.scss';
  * @return {WPElement} Element to render.
  */
 
+ import classnames from "classnames";
 
-export default function Edit({ attributes, setAttributes }) {
+ import FontIconPicker from '@fonticonpicker/react-fonticonpicker';
+ import AlaminIcon from './components/AlaminIcon.json';
+
+export default function Edit(props) {
+
+	console.log('edit-props',props);
+
 	const blockProps = useBlockProps( {
 		className: 'infobox-wrapper',
 	} );
 
-	const {
-		icon,
-		iconimgPosition,
-		source_type,
-		iconSize
-	} = attributes;
+	/*let alamin_icons = Object.keys( AlaminIcon );
 
-	// custom functions
-	function onChangeIcon(newIcon) {
-		setAttributes( { icon: newIcon } );
-	}
-
-	function onChangeIconImagePosition(newIconImagePosition) {
-		setAttributes( { iconimgPosition: newIconImagePosition } );
-	}
-
-	function onChangeSourceType(newSourceType) {
-		setAttributes( { source_type: newSourceType } );
-	}
-
-	function onChangeIconSize(newIconSize) {
-		setAttributes( { iconSize: newIconSize } );
-	}
-	//console.log(IconSelector.handleChange);
+	const iconprops = {
+		icons: alamin_icons,
+		theme: 'bluegrey',
+		renderUsing: 'class',
+		value: this.state.icon,
+		onChange: this.onChangeIcon,
+		isMulti: false,
+	};*/
+	
 	return (
 		<>
-			<InspectorControls style={ { marginBottom: '40px' } }>
-				<PanelBody title={ 'Image/Icon' }>
-				<SelectControl
-						label={ __( "Icon/Image Position", 'alamin-gutenberg' ) }
-						value={ iconimgPosition }
-						onChange={ ( value ) => setAttributes( { iconimgPosition: value } ) }
-						options={ [
-							{ value: "above-title", label: __( "Above Title", 'alamin-gutenberg' ) },
-							{ value: "left-title", label: __( "Left of Title", 'alamin-gutenberg' ) },
-							{ value: "left", label: __( "Left of Text and Title", 'alamin-gutenberg' ) },
-
-						] }
-					/>
-					<SelectControl
-						label={ __( "Select Source", 'alamin-gutenberg' ) }
-						value={ source_type }
-						onChange={ ( value ) => setAttributes( { source_type: value } ) }
-						options={ [
-							{ value: "icon", label: __( "Icon", 'alamin-gutenberg' ) },
-							{ value: "image", label: __( "Image", 'alamin-gutenberg' ) },
-						] }
-					/>
-					<IconSelector 
-						label={ __( "Select Icon", 'alamin-gutenberg' ) } 
-						value={ icon }
-						onChange={ ( value ) => setAttributes( { icon: value } ) }
-					/>
-					<RangeControl
-						label = { __( "Icon Size", 'alamin-gutenberg' ) }
-						value = { iconSize }
-						onChange = { ( value ) => setAttributes( { iconSize: value } ) }
-						min = { 10 }
-						max = { 300 }
-						beforeIcon = ""
-						allowReset
-					/>					
-				</PanelBody>
-			</InspectorControls>
+			{/* <InspectorControls style={ { marginBottom: '40px' } }>
+				<FontIconPicker {...iconprops}/>
+			</InspectorControls> */}
 			<div { ...blockProps } >				
-				<div className="infobox-text" >
-					<InfoboxIcon attributes={ attributes }/>
-					{__(
-						'Gutenberg Infobox – hello from the editor!',
-						'alamin-gutenberg'
-					)}
-				</div>				
-			</div>
+				<InfoboxControls />				
+		</div>
 		</>
 	);
 }
