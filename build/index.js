@@ -416,6 +416,7 @@ class InfoboxControls extends _wordpress_element__WEBPACK_IMPORTED_MODULE_1__.Co
       setAttributes,
       attributes
     } = this.props;
+    console.log(attributes);
     const {
       icon,
       iconimgPosition,

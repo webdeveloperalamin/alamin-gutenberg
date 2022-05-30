@@ -47,7 +47,11 @@ class InfoboxControls extends Component {
 
   render() {
 
+    
+
 		const { setAttributes, attributes } = this.props;
+
+    console.log(attributes);
 
     const {
       icon,
