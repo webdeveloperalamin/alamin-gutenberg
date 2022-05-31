@@ -23,7 +23,10 @@ import { PanelBody, SelectControl, IconButton, RangeControl } from '@wordpress/c
 
 import { __experimentalDimensionControl as DimensionControl, __experimentalSpacer as Spacer,
 	__experimentalHeading as Heading,
-	__experimentalView as View, } from '@wordpress/components';
+	__experimentalView as View, __experimentalUnitControl as UnitControl, __experimentalFlex as Flex,
+	__experimentalFlexBlock as FlexBlock,
+	__experimentalFlexItem as FlexItem,
+	__experimentalText as Text, } from '@wordpress/components';
 
 
 /**
@@ -50,7 +53,7 @@ import './editor.scss';
 
 let alamin_icons = Object.keys( AlaminIcon );
 
-console.log(DimensionControl);
+console.log(wp.blockEditor);
 //console.log(__experimentalDimensionControl);
 
 export default function Edit({setAttributes, attributes, clientId}) {
@@ -64,7 +67,7 @@ export default function Edit({setAttributes, attributes, clientId}) {
 		iconimgPosition,
 		iconSourceType,
 		iconSize,
-		boxPaddingSize
+		paddingSize
 	} = attributes;
 
 	const updateSpacing = ( dimension, size, device = '' ) => {
@@ -134,15 +137,15 @@ export default function Edit({setAttributes, attributes, clientId}) {
 						
 						<DimensionControl
                 label={ __( 'Padding' ) }
-                icon={ ( 'desktop', 'tablet' ) }
-                onChange={ partialRight( updateSpacing, 'boxPaddingSize' ) }
-                value={ boxPaddingSize }
+                icon={ 'desktop' }
+                onChange={ partialRight( updateSpacing, 'paddingSize' ) }
+                value={ paddingSize }
             />
-						<View>
-								<Spacer>
-										<Heading>WordPress.org</Heading>
-								</Spacer>
-						</View>
+						
+									<UnitControl />
+									<UnitControl />
+									<UnitControl />
+									<UnitControl />				
 				</PanelBody>
 			</InspectorControls>
 			<div { ...blockProps } >	
@@ -150,7 +153,8 @@ export default function Edit({setAttributes, attributes, clientId}) {
 				<p>Current Icon: {icon}</p>
           <p>Current Position: {iconimgPosition}</p>
           <p>Current Source: {iconSourceType}</p>
-          <p>Current Size: {iconSize}</p>		
+          <p>Current Size: {iconSize}</p>
+					<RichText />	
 				{/* <InfoboxControls />				 */}
 		</div>
 		</>

@@ -47,9 +47,8 @@ const attributes = {
 		type: "number",
 		default: 40,
 	},
-  boxPaddingSize : {
+  paddingSize : {
 		type: "number",
-		default: 20,
 	},
 }
 

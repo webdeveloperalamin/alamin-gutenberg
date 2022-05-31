@@ -326,7 +326,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let alamin_icons = Object.keys(_components_AlaminIcon_json__WEBPACK_IMPORTED_MODULE_8__);
-console.log(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalDimensionControl); //console.log(__experimentalDimensionControl);
+console.log(wp.blockEditor); //console.log(__experimentalDimensionControl);
 
 function Edit(_ref) {
   let {
@@ -342,7 +342,7 @@ function Edit(_ref) {
     iconimgPosition,
     iconSourceType,
     iconSize,
-    boxPaddingSize
+    paddingSize
   } = attributes;
 
   const updateSpacing = function (dimension, size) {
@@ -432,12 +432,12 @@ function Edit(_ref) {
     allowReset: true
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalDimensionControl, {
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Padding'),
-    icon: ('desktop', 'tablet'),
-    onChange: (0,lodash__WEBPACK_IMPORTED_MODULE_3__.partialRight)(updateSpacing, 'boxPaddingSize'),
-    value: boxPaddingSize
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalView, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalSpacer, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalHeading, null, "WordPress.org"))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
+    icon: 'desktop',
+    onChange: (0,lodash__WEBPACK_IMPORTED_MODULE_3__.partialRight)(updateSpacing, 'paddingSize'),
+    value: paddingSize
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalUnitControl, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalUnitControl, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalUnitControl, null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.__experimentalUnitControl, null))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
     className: icon
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Icon: ", icon), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Position: ", iconimgPosition), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Source: ", iconSourceType), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Size: ", iconSize)));
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Icon: ", icon), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Position: ", iconimgPosition), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Source: ", iconSourceType), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Size: ", iconSize), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, null)));
 }
 
 /***/ }),
@@ -505,9 +505,8 @@ const attributes = {
     type: "number",
     default: 40
   },
-  boxPaddingSize: {
-    type: "number",
-    default: 20
+  paddingSize: {
+    type: "number"
   }
 };
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)(name, {
@@ -4147,7 +4146,7 @@ module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-icon
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-infobox","version":"0.1.0","title":"Gutenberg Infobox","category":"alaminblock","icon":"fontawesome fas fa-box","description":"Block to generate a custom Infobox.","supports":{"html":false},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
+module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-infobox","version":"0.1.0","title":"Gutenberg Infobox","category":"alaminblock","icon":"fontawesome fas fa-box","description":"Block to generate a custom Infobox.","supports":{"html":false,"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":true,"__experimentalDefaultControls":{"padding":true,"blockGap":true}}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
 
 /***/ }),
 
