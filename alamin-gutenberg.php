@@ -36,6 +36,8 @@ function alamin_enqueue_blocks_scripts() {
 }
 add_action( 'enqueue_block_editor_assets', 'alamin_enqueue_blocks_scripts');
 
+add_action( 'enqueue_block_assets', 'alamin_enqueue_blocks_scripts');
+
 function alamin_gutenburg_plugin_block_categories( $categories ) {
 	return array_merge(
 			$categories,

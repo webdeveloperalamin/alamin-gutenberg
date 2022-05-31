@@ -13,14 +13,18 @@ import { __ } from '@wordpress/i18n';
  */
 import { useBlockProps, RichText, InspectorControls, ColorPalette, MediaUpload } from '@wordpress/block-editor';
 
-import { PanelBody, SelectControl, IconButton, RangeControl } from '@wordpress/components';
+
+
+import { partialRight } from 'lodash';
 
 import {Component} from "@wordpress/element";
 
-import IconSelector from './components/IconSelector';
-import InfoboxControls from './components/InfoboxControls';
+import { PanelBody, SelectControl, IconButton, RangeControl } from '@wordpress/components';
 
-import InfoboxIcon from './components/Icon';
+import { __experimentalDimensionControl as DimensionControl, __experimentalSpacer as Spacer,
+	__experimentalHeading as Heading,
+	__experimentalView as View, } from '@wordpress/components';
+
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -44,32 +48,110 @@ import './editor.scss';
  import FontIconPicker from '@fonticonpicker/react-fonticonpicker';
  import AlaminIcon from './components/AlaminIcon.json';
 
-export default function Edit(props) {
+let alamin_icons = Object.keys( AlaminIcon );
 
-	console.log('edit-props',props);
+console.log(DimensionControl);
+//console.log(__experimentalDimensionControl);
+
+export default function Edit({setAttributes, attributes, clientId}) {
 
 	const blockProps = useBlockProps( {
 		className: 'infobox-wrapper',
 	} );
 
-	/*let alamin_icons = Object.keys( AlaminIcon );
+	const {
+		icon,
+		iconimgPosition,
+		iconSourceType,
+		iconSize,
+		boxPaddingSize
+	} = attributes;
 
-	const iconprops = {
-		icons: alamin_icons,
-		theme: 'bluegrey',
-		renderUsing: 'class',
-		value: this.state.icon,
-		onChange: this.onChangeIcon,
-		isMulti: false,
-	};*/
-	
+	const updateSpacing = ( dimension, size, device = '' ) => {
+		setAttributes( {
+				[ `${ dimension }${ device }` ]: size,
+		} );
+	};
+
+  function onChangeIcon (newIcon) {
+    setAttributes( { icon: newIcon } );
+  }
+
+	function onChangeIconImagePosition (newIconImagePosition) {
+    setAttributes( { iconimgPosition: newIconImagePosition } );
+  }
+
+  function onChangeSourceType (newSourceType) {
+    setAttributes( { iconSourceType: newSourceType } );
+  }
+
+  function onChangeIconSize (newIconSize) {
+    setAttributes( { iconSize: newIconSize } );
+  }
+
 	return (
 		<>
-			{/* <InspectorControls style={ { marginBottom: '40px' } }>
-				<FontIconPicker {...iconprops}/>
-			</InspectorControls> */}
-			<div { ...blockProps } >				
-				<InfoboxControls />				
+			<InspectorControls style={ { marginBottom: '40px' } }>
+				<PanelBody title={ 'Image/Icon' }>
+					<SelectControl
+              label={ __( "Icon/Image Position", 'alamin-gutenberg' ) }
+              value={ iconimgPosition }
+              onChange={ ( value ) => setAttributes( { iconimgPosition: value } ) }
+              options={ [
+                { value: "above-title", label: __( "Above Title", 'alamin-gutenberg' ) },
+                { value: "left-title", label: __( "Left of Title", 'alamin-gutenberg' ) },
+                { value: "left", label: __( "Left of Text and Title", 'alamin-gutenberg' ) },
+              ] }
+            />
+            <SelectControl
+              label={ __( "Select Source", 'alamin-gutenberg' ) }
+              value={ iconSourceType }
+              onChange={ ( value ) => setAttributes( { iconSourceType: value } ) }
+              options={ [
+                { value: "icon", label: __( "Icon", 'alamin-gutenberg' ) },
+                { value: "image", label: __( "Image", 'alamin-gutenberg' ) },
+              ] }
+            />
+						<div className='iconselector-wrapper'>            
+								<FontIconPicker 
+									icons={ alamin_icons }
+									theme='bluegrey'
+									renderUsing='class'
+									value={icon}
+									onChange={onChangeIcon}
+									isMulti={false}
+								/>
+						</div>
+						<RangeControl
+              label = { __( "Icon Size", 'alamin-gutenberg' ) }
+              value = { iconSize }
+              onChange = { ( value ) => setAttributes( { iconSize: value } ) }
+              min = { 10 }
+              max = { 300 }
+              beforeIcon = ""
+              allowReset
+            />
+						
+						<DimensionControl
+                label={ __( 'Padding' ) }
+                icon={ ( 'desktop', 'tablet' ) }
+                onChange={ partialRight( updateSpacing, 'boxPaddingSize' ) }
+                value={ boxPaddingSize }
+            />
+						<View>
+								<Spacer>
+										<Heading>WordPress.org</Heading>
+								</Spacer>
+						</View>
+				</PanelBody>
+			</InspectorControls>
+			<div { ...blockProps } >	
+				<i className={icon} />
+				<p>Current Icon: {icon}</p>
+          <p>Current Position: {iconimgPosition}</p>
+          <p>Current Source: {iconSourceType}</p>
+          <p>Current Size: {iconSize}</p>		
+				{/* <InfoboxControls />				 */}
 		</div>
 		</>
 	);

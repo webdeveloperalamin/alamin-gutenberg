@@ -16,6 +16,10 @@ import { useBlockProps } from '@wordpress/block-editor';
 import InfoboxIcon from "./components/Icon"
 
 
+import '@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.base-theme.react.css';
+import '@fonticonpicker/react-fonticonpicker/dist/fonticonpicker.material-theme.react.css';
+
+
 /**
  * The save function defines the way in which the different attributes should
  * be combined into the final markup, which is then serialized by the block
@@ -26,19 +30,24 @@ import InfoboxIcon from "./components/Icon"
  * @return {WPElement} Element to render.
  */
 export default function save(props) {
+
+	const { attributes } = props
+
 	const {
+		icon,
 		iconimgPosition,
-		source_type,
-		icon
-	} = props.attributes
+		iconSourceType,
+		iconSize,
+		boxPaddingSize
+	} = attributes;
 
 	return (
 		<div {...useBlockProps.save()}>
-			{/*<InfoboxIcon attributes={ props.attributes }/>*/}
-			{__(
-				'Alamin Gutenberg – hello from the saved content!',
-				'alamin-gutenberg'
-			)}
+				<i className={icon} />
+				<p>Current Icon: {icon}</p>
+				<p>Current Position: {iconimgPosition}</p>
+				<p>Current Source: {iconSourceType}</p>
+				<p>Current Size: {iconSize}</p>	
 		</div>
 	);
 }

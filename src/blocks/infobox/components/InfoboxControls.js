@@ -25,21 +25,9 @@ class InfoboxControls extends Component {
     };
   }*/
 
-  onChangeIcon = (newIcon) => {
-    setAttributes( { icon: newIcon } );
-  }
+  
 
-  onChangeIconImagePosition = (newIconImagePosition) => {
-    setAttributes( { iconimgPosition: newIconImagePosition } );
-  }
-
-  onChangeSourceType = (newSourceType) => {
-    setAttributes( { iconSourceType: newSourceType } );
-  }
-
-  onChangeIconSize = (newIconSize) => {
-    setAttributes( { iconSize: newIconSize } );
-  }
+  
 
   onChangePaddingSize = (newPaddingSize) => {
     setAttributes( { paddingSize: newPaddingSize } );
@@ -51,14 +39,7 @@ class InfoboxControls extends Component {
 
 		const { setAttributes, attributes } = this.props;
 
-    console.log(attributes);
-
-    const {
-      icon,
-      iconimgPosition,
-      iconSourceType,
-      iconSize
-    } = attributes;
+    
 
     const iconprops = {
       icons: alamin_icons,

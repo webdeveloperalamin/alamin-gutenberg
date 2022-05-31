@@ -4,7 +4,7 @@
     "version": "0.1.0",
     "title": "Gutenberg Infobox",
     "category": "alaminblock",
-    "icon": "smiley",
+    "icon": "fontawesome fas fa-box",
     "description": "Block to generate a custom Infobox.",
     "supports": {
         "html": false
