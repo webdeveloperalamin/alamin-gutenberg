@@ -2,9 +2,9 @@
     "apiVersion": 2,
     "name": "create-block/gutenberg-custon-row",
     "version": "0.1.0",
-    "title": "Gutenberg Custom Row",
+    "title": "Gutenberg Row",
     "category": "alaminblock",
-    "icon": "fontawesome fas fa-th",
+    "icon": "fontawesome fas fa-table",
     "description": "Block to generate a custom Row.",
     "supports": {
         "html": false,

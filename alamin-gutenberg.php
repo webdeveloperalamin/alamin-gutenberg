@@ -31,8 +31,8 @@ add_action( 'init', 'create_block_alamin_gutenberg_block_init' );
 function alamin_enqueue_blocks_scripts() {
 	$asset_file = require plugin_dir_path( __FILE__ ) . 'build/index.asset.php';
 
-	wp_enqueue_style('bootstrap', plugins_url( '/assets/css/bootstrap.min.css', __FILE__ ), '', '5.1.3', 'bootstrap');
-	wp_enqueue_style('fontawesome', plugins_url( '/assets/css/fontawesome.min.css', __FILE__ ), '', '5.8.1', 'fontawesome');
+	wp_enqueue_style('bootstrap', plugins_url( '/assets/css/bootstrap.min.css', __FILE__ ), '', '5.1.3');
+	wp_enqueue_style('fontawesome', plugins_url( '/assets/css/fontawesome.min.css', __FILE__ ), '', '5.15.4');
 
 	wp_enqueue_style('bootstrap', plugins_url( '/assets/js/bootstrap.min.js', __FILE__ ), '', '5.1.3', 'bootstrap');
 	wp_enqueue_script( 'alamin-main', plugins_url( '/build/index.js', __FILE__ ), $asset_file['dependencies'], 1.0, false);

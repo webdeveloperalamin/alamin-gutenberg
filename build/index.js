@@ -838,22 +838,19 @@ function Edit(_ref) {
       marginBottom: '40px'
     }
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.PanelBody, {
-    title: 'Image/Icon'
+    title: 'Layout'
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.SelectControl, {
-    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Icon/Image Position", 'alamin-gutenberg'),
+    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Content Width", 'alamin-gutenberg'),
     value: iconimgPosition,
     onChange: value => setAttributes({
       iconimgPosition: value
     }),
     options: [{
-      value: "above-title",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Above Title", 'alamin-gutenberg')
+      value: "boxed",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Boxed", 'alamin-gutenberg')
     }, {
-      value: "left-title",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Left of Title", 'alamin-gutenberg')
-    }, {
-      value: "left",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Left of Text and Title", 'alamin-gutenberg')
+      value: "full_width",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Full Width", 'alamin-gutenberg')
     }]
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.SelectControl, {
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Select Source", 'alamin-gutenberg'),
@@ -4665,7 +4662,7 @@ module.exports = JSON.parse('{"fab fa-500px":{"unicode":"f26e","label":"500px"},
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-custon-row","version":"0.1.0","title":"Gutenberg Custom Row","category":"alaminblock","icon":"fontawesome fas fa-th","description":"Block to generate a custom Row.","supports":{"html":false,"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":false}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
+module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-custon-row","version":"0.1.0","title":"Gutenberg Row","category":"alaminblock","icon":"fontawesome fas fa-table","description":"Block to generate a custom Row.","supports":{"html":false,"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":false}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
 
 /***/ }),
 

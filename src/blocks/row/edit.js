@@ -102,15 +102,14 @@ export default function Edit({setAttributes, attributes, clientId}) {
 	return (
 		<>
 			<InspectorControls style={ { marginBottom: '40px' } }>
-				<PanelBody title={ 'Image/Icon' }>
+				<PanelBody title={ 'Layout' }>
 					<SelectControl
-              label={ __( "Icon/Image Position", 'alamin-gutenberg' ) }
+              label={ __( "Content Width", 'alamin-gutenberg' ) }
               value={ iconimgPosition }
               onChange={ ( value ) => setAttributes( { iconimgPosition: value } ) }
               options={ [
-                { value: "above-title", label: __( "Above Title", 'alamin-gutenberg' ) },
-                { value: "left-title", label: __( "Left of Title", 'alamin-gutenberg' ) },
-                { value: "left", label: __( "Left of Text and Title", 'alamin-gutenberg' ) },
+                { value: "boxed", label: __( "Boxed", 'alamin-gutenberg' ) },
+                { value: "full_width", label: __( "Full Width", 'alamin-gutenberg' ) },
               ] }
             />
             <SelectControl
