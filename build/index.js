@@ -793,7 +793,10 @@ function Edit(_ref) {
     iconSourceType,
     iconSize,
     title,
-    paddingSize
+    paddingSize,
+    innerWidth,
+    innerWidthType,
+    tag
   } = attributes;
 
   const updateSpacing = function (dimension, size) {
@@ -833,12 +836,30 @@ function Edit(_ref) {
     });
   }
 
+  function onChangeInnerWidth(newInnerWidth) {
+    setAttributes({
+      innerWidth: newInnerWidth
+    });
+  }
+
+  function onChangeInnerWidthType(newInnerWidthType) {
+    setAttributes({
+      innerWidthType: newInnerWidthType
+    });
+  }
+
+  function onChangeTag(newTag) {
+    setAttributes({
+      tag: newTag
+    });
+  }
+
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InspectorControls, {
     style: {
       marginBottom: '40px'
     }
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.PanelBody, {
-    title: 'Layout'
+    title: 'Layout/dsfsd'
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.SelectControl, {
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Content Width", 'alamin-gutenberg'),
     value: iconimgPosition,
@@ -852,18 +873,65 @@ function Edit(_ref) {
       value: "full_width",
       label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Full Width", 'alamin-gutenberg')
     }]
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.SelectControl, {
-    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Select Source", 'alamin-gutenberg'),
-    value: iconSourceType,
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.ButtonGroup, {
+    className: "ag-size-type-field",
+    "aria-label": (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Size Type", 'alamin-gutenberg')
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.Button, {
+    key: "px",
+    className: "ag-size-btn",
+    isSmall: true,
+    isPrimary: innerWidthType === "px",
+    "aria-pressed": innerWidthType === "px",
+    onClick: () => setAttributes({
+      innerWidthType: "px"
+    })
+  }, "px"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.Button, {
+    key: "%",
+    className: "ag-size-btn",
+    isSmall: true,
+    isPrimary: innerWidthType === "%",
+    "aria-pressed": innerWidthType === "%",
+    onClick: () => setAttributes({
+      innerWidthType: "%"
+    })
+  }, "%")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.RangeControl, {
+    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Inner Width", 'alamin-gutenberg'),
+    value: innerWidth,
     onChange: value => setAttributes({
-      iconSourceType: value
+      innerWidth: value
+    }),
+    min: 0,
+    max: 2000
+  })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.SelectControl, {
+    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("HTML Tag", 'alamin-gutenberg'),
+    value: tag,
+    onChange: value => setAttributes({
+      tag: value
     }),
     options: [{
-      value: "icon",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Icon", 'alamin-gutenberg')
+      value: "div",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("div", 'alamin-gutenberg')
     }, {
-      value: "image",
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Image", 'alamin-gutenberg')
+      value: "header",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("header", 'alamin-gutenberg')
+    }, {
+      value: "footer",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("footer", 'alamin-gutenberg')
+    }, {
+      value: "main",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("main", 'alamin-gutenberg')
+    }, {
+      value: "article",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("article", 'alamin-gutenberg')
+    }, {
+      value: "section",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("section", 'alamin-gutenberg')
+    }, {
+      value: "aside",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("aside", 'alamin-gutenberg')
+    }, {
+      value: "nav",
+      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("nav", 'alamin-gutenberg')
     }]
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "iconselector-wrapper"
@@ -965,6 +1033,18 @@ const attributes = {
   },
   paddingSize: {
     type: "number"
+  },
+  innerWidth: {
+    type: "number",
+    default: 960
+  },
+  innerWidthType: {
+    type: "string",
+    default: "px"
+  },
+  tag: {
+    type: "string",
+    default: "section"
   }
 };
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)(name, {
@@ -4662,7 +4742,7 @@ module.exports = JSON.parse('{"fab fa-500px":{"unicode":"f26e","label":"500px"},
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-custon-row","version":"0.1.0","title":"Gutenberg Row","category":"alaminblock","icon":"fontawesome fas fa-table","description":"Block to generate a custom Row.","supports":{"html":false,"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":false}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
+module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-custon-row","version":"0.1.0","title":"Gutenberg Row","category":"alaminblock","icon":"fontawesome fas fa-table","description":"Block to generate a custom Row.","supports":{"html":false,"layout":{"contentSize":"800px","wideSize":"1000px"},"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":false}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
 
 /***/ }),
 

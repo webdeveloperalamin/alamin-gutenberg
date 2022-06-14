@@ -8,6 +8,10 @@
     "description": "Block to generate a custom Row.",
     "supports": {
         "html": false,
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1000px"
+        },
         "spacing": {
             "margin": ["top", "bottom"],
             "padding": true,

@@ -50,6 +50,18 @@ const attributes = {
   paddingSize : {
 		type: "number",
 	},
+	innerWidth : {
+		type: "number",
+		default: 960,
+	},
+	innerWidthType : {
+		type: "string",
+		default: "px",
+	},
+	tag : {
+		type: "string",
+		default: "section",
+	},
 }
 
 

@@ -19,7 +19,8 @@ import { partialRight } from 'lodash';
 
 import {Component} from "@wordpress/element";
 
-import { PanelBody, SelectControl, IconButton, RangeControl } from '@wordpress/components';
+import { PanelBody, SelectControl, IconButton, RangeControl, Button,
+	ButtonGroup, } from '@wordpress/components';
 
 import { __experimentalDimensionControl as DimensionControl, __experimentalSpacer as Spacer,
 	__experimentalHeading as Heading,
@@ -70,7 +71,10 @@ export default function Edit({setAttributes, attributes, clientId}) {
 		iconSourceType,
 		iconSize,
 		title,
-		paddingSize
+		paddingSize,
+		innerWidth,
+		innerWidthType,
+		tag,
 	} = attributes;
 
 	const updateSpacing = ( dimension, size, device = '' ) => {
@@ -99,10 +103,22 @@ export default function Edit({setAttributes, attributes, clientId}) {
 		setAttributes({ title: newTitle });            
 	}
 
+	function onChangeInnerWidth( newInnerWidth ){
+		setAttributes({ innerWidth: newInnerWidth });            
+	}
+
+	function onChangeInnerWidthType( newInnerWidthType ){
+		setAttributes({ innerWidthType: newInnerWidthType });            
+	}
+
+	function onChangeTag( newTag ){
+		setAttributes({ tag: newTag });            
+	}
+
 	return (
 		<>
 			<InspectorControls style={ { marginBottom: '40px' } }>
-				<PanelBody title={ 'Layout' }>
+				<PanelBody title={ 'Layout/dsfsd' }>
 					<SelectControl
               label={ __( "Content Width", 'alamin-gutenberg' ) }
               value={ iconimgPosition }
@@ -112,13 +128,33 @@ export default function Edit({setAttributes, attributes, clientId}) {
                 { value: "full_width", label: __( "Full Width", 'alamin-gutenberg' ) },
               ] }
             />
+						<Fragment>
+							<ButtonGroup className="ag-size-type-field" aria-label={ __( "Size Type", 'alamin-gutenberg' ) }>
+								<Button key={ "px" } className="ag-size-btn" isSmall isPrimary={ innerWidthType === "px" } aria-pressed={ innerWidthType === "px" } onClick={ () => setAttributes( { innerWidthType: "px" } ) }>{ "px" }</Button>
+								<Button key={ "%" } className="ag-size-btn" isSmall isPrimary={ innerWidthType === "%" } aria-pressed={ innerWidthType === "%" } onClick={ () => setAttributes( { innerWidthType: "%" } ) }>{ "%" }</Button>
+							</ButtonGroup>
+							<RangeControl
+								label = { __( "Inner Width", 'alamin-gutenberg' ) }
+								value = { innerWidth }
+								onChange = { ( value ) => setAttributes( { innerWidth: value } ) }
+								min = { 0 }
+								max = { 2000 }
+							/>
+						</Fragment>
+						
             <SelectControl
-              label={ __( "Select Source", 'alamin-gutenberg' ) }
-              value={ iconSourceType }
-              onChange={ ( value ) => setAttributes( { iconSourceType: value } ) }
+              label={ __( "HTML Tag", 'alamin-gutenberg' ) }
+              value={ tag }
+              onChange={ ( value ) => setAttributes( { tag: value } ) }
               options={ [
-                { value: "icon", label: __( "Icon", 'alamin-gutenberg' ) },
-                { value: "image", label: __( "Image", 'alamin-gutenberg' ) },
+                { value: "div", label: __( "div", 'alamin-gutenberg' ) },
+                { value: "header", label: __( "header", 'alamin-gutenberg' ) },
+                { value: "footer", label: __( "footer", 'alamin-gutenberg' ) },
+                { value: "main", label: __( "main", 'alamin-gutenberg' ) },
+                { value: "article", label: __( "article", 'alamin-gutenberg' ) },
+                { value: "section", label: __( "section", 'alamin-gutenberg' ) },
+                { value: "aside", label: __( "aside", 'alamin-gutenberg' ) },
+                { value: "nav", label: __( "nav", 'alamin-gutenberg' ) },
               ] }
             />
 						<div className='iconselector-wrapper'>            
