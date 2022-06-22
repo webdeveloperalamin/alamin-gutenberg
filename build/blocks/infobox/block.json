@@ -11,10 +11,10 @@
         "spacing": {
             "margin": ["top", "bottom"],
             "padding": true,
-            "blockGap": true,
-            "__experimentalDefaultControls": {
+            "blockGap": false,
+            "defaultControls": {
                 "padding": true,
-                "blockGap": true
+                "margin": true
             }
         }
     },

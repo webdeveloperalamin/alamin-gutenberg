@@ -15,7 +15,11 @@
         "spacing": {
             "margin": ["top", "bottom"],
             "padding": true,
-            "blockGap": false
+            "blockGap": false,
+            "defaultControls": {
+                "padding": true,
+                "margin": true
+            }
         }
     },
     "editorStyle": "file:../../index.css",

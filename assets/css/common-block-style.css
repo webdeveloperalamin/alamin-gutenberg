@@ -1,0 +1,3 @@
+.wp-container-7> :where(:not(.alignleft):not(.alignright)) {
+    max-width: 100%;
+}

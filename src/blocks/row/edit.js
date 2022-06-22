@@ -11,7 +11,7 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
-import { useBlockProps, RichText, InspectorControls, ColorPalette, MediaUpload } from '@wordpress/block-editor';
+import { InnerBlocks, useBlockProps, RichText, InspectorControls, ColorPalette, MediaUpload } from '@wordpress/block-editor';
 
 
 
@@ -56,26 +56,23 @@ import './editor.scss';
 
 let alamin_icons = Object.keys( AlaminIcon );
 
-console.log(wp.blockEditor);
-//console.log(__experimentalDimensionControl);
-
 export default function Edit({setAttributes, attributes, clientId}) {
 
 	const blockProps = useBlockProps( {
-		className: 'infobox-wrapper',
+		className: 'section-wrapper section-wrapper-'+clientId,
 	} );
 
 	const {
-		icon,
-		iconimgPosition,
-		iconSourceType,
-		iconSize,
-		title,
-		paddingSize,
+		blockId,
+		contentWidth,
 		innerWidth,
 		innerWidthType,
 		tag,
 	} = attributes;
+	
+	if ( ! blockId ) {
+			setAttributes( { blockId: clientId } );
+	}
 
 	const updateSpacing = ( dimension, size, device = '' ) => {
 		setAttributes( {
@@ -103,6 +100,10 @@ export default function Edit({setAttributes, attributes, clientId}) {
 		setAttributes({ title: newTitle });            
 	}
 
+	function onChangeContentWidth( newContentWidth ){
+		setAttributes({ contentWidth: newContentWidth });            
+	}
+
 	function onChangeInnerWidth( newInnerWidth ){
 		setAttributes({ innerWidth: newInnerWidth });            
 	}
@@ -118,11 +119,11 @@ export default function Edit({setAttributes, attributes, clientId}) {
 	return (
 		<>
 			<InspectorControls style={ { marginBottom: '40px' } }>
-				<PanelBody title={ 'Layout/dsfsd' }>
+				<PanelBody title={ 'Layout' }>
 					<SelectControl
               label={ __( "Content Width", 'alamin-gutenberg' ) }
-              value={ iconimgPosition }
-              onChange={ ( value ) => setAttributes( { iconimgPosition: value } ) }
+              value={ contentWidth }
+              onChange={ ( value ) => setAttributes( { contentWidth: value } ) }
               options={ [
                 { value: "boxed", label: __( "Boxed", 'alamin-gutenberg' ) },
                 { value: "full_width", label: __( "Full Width", 'alamin-gutenberg' ) },
@@ -156,56 +157,25 @@ export default function Edit({setAttributes, attributes, clientId}) {
                 { value: "aside", label: __( "aside", 'alamin-gutenberg' ) },
                 { value: "nav", label: __( "nav", 'alamin-gutenberg' ) },
               ] }
-            />
-						<div className='iconselector-wrapper'>            
-								<FontIconPicker 
-									icons={ alamin_icons }
-									theme='bluegrey'
-									renderUsing='class'
-									value={icon}
-									onChange={onChangeIcon}
-									isMulti={false}
-								/>
-						</div>
-						<RangeControl
-              label = { __( "Icon Size", 'alamin-gutenberg' ) }
-              value = { iconSize }
-              onChange = { ( value ) => setAttributes( { iconSize: value } ) }
-              min = { 10 }
-              max = { 300 }
-              beforeIcon = ""
-              allowReset
-            />
-						
-						{/* <DimensionControl
-                label={ __( 'Padding' ) }
-                icon={ 'desktop' }
-                onChange={ partialRight( updateSpacing, 'paddingSize' ) }
-                value={ paddingSize }
-            />
-						
-						<UnitControl />
-						<UnitControl />
-						<UnitControl />
-						<UnitControl />				 */}
-						
+            />			
 				</PanelBody>
 			</InspectorControls>
-			<div { ...blockProps } >	
-				<i className={icon}
-				style={ { fontSize: iconSize } } />
-				<p>Current Icon: {icon}</p>
-          <p>Current Position: {iconimgPosition}</p>
-          <p>Current Source: {iconSourceType}</p>
-          <p>Current Size: {iconSize}</p>	
-					<RichText key="editable" 
-											tagName="h2" 
-											placeholder="Your Infobox Title" 
-											value={ title } 
-											onChange={ onChangeTitle }
-											/>
-				{/* <InfoboxControls />				 */}
-		</div>
+			<div { ...blockProps } >
+					{ "full_width" == contentWidth && (
+						<div className="container-fluid">
+							<div className="row">
+								<InnerBlocks templateLock={false} />
+							</div>
+						</div>
+					)}
+					{ "boxed" == contentWidth && (
+						<div className="container">
+							<div className="row">
+								<InnerBlocks templateLock={false} />
+							</div>
+						</div>
+					) }				
+			</div>
 		</>
 	);
 }

@@ -31,24 +31,12 @@ import save from './save';
  */
 
 const attributes = {
-  icon: {
-		type : "string",
-		default : "fas fa-star"
-	},
-  iconimgPosition: {
+	blockId: {
+		type: 'string'
+ 	},
+	contentWidth : {
 		type: "string",
-		default: "above-title"
-	},
-  iconSourceType :{
-		type: "string",
-		default: "icon",
-	},
-	iconSize : {
-		type: "number",
-		default: 40,
-	},
-  paddingSize : {
-		type: "number",
+		default: "boxed",
 	},
 	innerWidth : {
 		type: "number",

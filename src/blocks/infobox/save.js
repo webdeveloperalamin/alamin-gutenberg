@@ -51,7 +51,9 @@ export default function save({attributes, clientId}) {
 				<p>Current Position: {iconimgPosition}</p>
 				<p>Current Source: {iconSourceType}</p>
 				<p>Current Size: {iconSize}</p>	
-				<h2>{ title }</h2>
+				{ title && (
+					<h2>{ title }</h2>
+				) }
 		</div>
 	);
 }

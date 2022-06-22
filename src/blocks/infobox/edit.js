@@ -55,9 +55,6 @@ import './editor.scss';
 
 let alamin_icons = Object.keys( AlaminIcon );
 
-console.log(wp.blockEditor);
-//console.log(__experimentalDimensionControl);
-
 export default function Edit({setAttributes, attributes, clientId}) {
 
 	const blockProps = useBlockProps( {

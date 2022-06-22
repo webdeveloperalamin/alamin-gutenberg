@@ -356,8 +356,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let alamin_icons = Object.keys(_components_AlaminIcon_json__WEBPACK_IMPORTED_MODULE_8__);
-console.log(wp.blockEditor); //console.log(__experimentalDimensionControl);
-
 function Edit(_ref) {
   let {
     setAttributes,
@@ -637,7 +635,7 @@ function save(_ref) {
     style: {
       fontSize: iconSize
     }
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Icon: ", icon), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Position: ", iconimgPosition), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Source: ", iconSourceType), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Size: ", iconSize), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", null, title));
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Icon: ", icon), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Position: ", iconimgPosition), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Source: ", iconSourceType), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Size: ", iconSize), title && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", null, title));
 }
 
 /***/ }),
@@ -776,8 +774,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let alamin_icons = Object.keys(_components_AlaminIcon_json__WEBPACK_IMPORTED_MODULE_8__);
-console.log(wp.blockEditor); //console.log(__experimentalDimensionControl);
-
 function Edit(_ref) {
   let {
     setAttributes,
@@ -785,19 +781,21 @@ function Edit(_ref) {
     clientId
   } = _ref;
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)({
-    className: 'infobox-wrapper'
+    className: 'section-wrapper section-wrapper-' + clientId
   });
   const {
-    icon,
-    iconimgPosition,
-    iconSourceType,
-    iconSize,
-    title,
-    paddingSize,
+    blockId,
+    contentWidth,
     innerWidth,
     innerWidthType,
     tag
   } = attributes;
+
+  if (!blockId) {
+    setAttributes({
+      blockId: clientId
+    });
+  }
 
   const updateSpacing = function (dimension, size) {
     let device = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
@@ -836,6 +834,12 @@ function Edit(_ref) {
     });
   }
 
+  function onChangeContentWidth(newContentWidth) {
+    setAttributes({
+      contentWidth: newContentWidth
+    });
+  }
+
   function onChangeInnerWidth(newInnerWidth) {
     setAttributes({
       innerWidth: newInnerWidth
@@ -859,12 +863,12 @@ function Edit(_ref) {
       marginBottom: '40px'
     }
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.PanelBody, {
-    title: 'Layout/dsfsd'
+    title: 'Layout'
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.SelectControl, {
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Content Width", 'alamin-gutenberg'),
-    value: iconimgPosition,
+    value: contentWidth,
     onChange: value => setAttributes({
-      iconimgPosition: value
+      contentWidth: value
     }),
     options: [{
       value: "boxed",
@@ -933,37 +937,19 @@ function Edit(_ref) {
       value: "nav",
       label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("nav", 'alamin-gutenberg')
     }]
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "iconselector-wrapper"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)((_fonticonpicker_react_fonticonpicker__WEBPACK_IMPORTED_MODULE_7___default()), {
-    icons: alamin_icons,
-    theme: "bluegrey",
-    renderUsing: "class",
-    value: icon,
-    onChange: onChangeIcon,
-    isMulti: false
-  })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__.RangeControl, {
-    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Icon Size", 'alamin-gutenberg'),
-    value: iconSize,
-    onChange: value => setAttributes({
-      iconSize: value
-    }),
-    min: 10,
-    max: 300,
-    beforeIcon: "",
-    allowReset: true
-  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
-    className: icon,
-    style: {
-      fontSize: iconSize
-    }
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Icon: ", icon), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Position: ", iconimgPosition), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Source: ", iconSourceType), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Size: ", iconSize), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
-    key: "editable",
-    tagName: "h2",
-    placeholder: "Your Infobox Title",
-    value: title,
-    onChange: onChangeTitle
-  })));
+  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, "full_width" == contentWidth && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "container-fluid"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "row"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InnerBlocks, {
+    templateLock: false
+  }))), "boxed" == contentWidth && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "container"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "row"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InnerBlocks, {
+    templateLock: false
+  })))));
 }
 
 /***/ }),
@@ -1015,24 +1001,12 @@ const {
  */
 
 const attributes = {
-  icon: {
+  blockId: {
+    type: 'string'
+  },
+  contentWidth: {
     type: "string",
-    default: "fas fa-star"
-  },
-  iconimgPosition: {
-    type: "string",
-    default: "above-title"
-  },
-  iconSourceType: {
-    type: "string",
-    default: "icon"
-  },
-  iconSize: {
-    type: "number",
-    default: 40
-  },
-  paddingSize: {
-    type: "number"
+    default: "boxed"
   },
   innerWidth: {
     type: "number",
@@ -1115,26 +1089,27 @@ __webpack_require__.r(__webpack_exports__);
 
 function save(_ref) {
   let {
-    attributes,
-    clientId
+    attributes
   } = _ref;
-  const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps.save({
-    className: 'infobox-wrapper'
-  });
   const {
-    icon,
-    iconimgPosition,
-    iconSourceType,
-    iconSize,
-    title,
-    boxPaddingSize
+    blockId,
+    contentWidth,
+    innerWidth,
+    innerWidthType,
+    tag
   } = attributes;
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("i", {
-    className: icon,
-    style: {
-      fontSize: iconSize
-    }
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Icon: ", icon), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Position: ", iconimgPosition), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Source: ", iconSourceType), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Current Size: ", iconSize), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", null, title));
+  const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps.save({
+    className: 'section-wrapper section-wrapper-' + blockId
+  });
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, "full_width" == contentWidth && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "container-fluid"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "row"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InnerBlocks.Content, null))), "boxed" == contentWidth && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "container"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "row"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InnerBlocks.Content, null))));
 }
 
 /***/ }),
@@ -4720,7 +4695,7 @@ module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-icon
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-infobox","version":"0.1.0","title":"Gutenberg Infobox","category":"alaminblock","icon":"fontawesome fas fa-box","description":"Block to generate a custom Infobox.","supports":{"html":false,"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":true,"__experimentalDefaultControls":{"padding":true,"blockGap":true}}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
+module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-infobox","version":"0.1.0","title":"Gutenberg Infobox","category":"alaminblock","icon":"fontawesome fas fa-box","description":"Block to generate a custom Infobox.","supports":{"html":false,"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":false,"defaultControls":{"padding":true,"margin":true}}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
 
 /***/ }),
 
@@ -4742,7 +4717,7 @@ module.exports = JSON.parse('{"fab fa-500px":{"unicode":"f26e","label":"500px"},
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-custon-row","version":"0.1.0","title":"Gutenberg Row","category":"alaminblock","icon":"fontawesome fas fa-table","description":"Block to generate a custom Row.","supports":{"html":false,"layout":{"contentSize":"800px","wideSize":"1000px"},"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":false}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
+module.exports = JSON.parse('{"apiVersion":2,"name":"create-block/gutenberg-custon-row","version":"0.1.0","title":"Gutenberg Row","category":"alaminblock","icon":"fontawesome fas fa-table","description":"Block to generate a custom Row.","supports":{"html":false,"layout":{"contentSize":"800px","wideSize":"1000px"},"spacing":{"margin":["top","bottom"],"padding":true,"blockGap":false,"defaultControls":{"padding":true,"margin":true}}},"editorStyle":"file:../../index.css","style":"file:../../style-index.css"}');
 
 /***/ }),
 
